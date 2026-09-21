@@ -1,7 +1,7 @@
 title: "Reza Emrani"
-description: "Author and linguist"
-url: ""
-baseurl: ""
+description: "Author, linguist, and researcher"
+url: "https://sepante.github.io"
+baseurl: "/rezaemrani"
 
 collections:
   books_en:

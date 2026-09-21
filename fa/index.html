@@ -1,0 +1,79 @@
+---
+layout: default
+title: خانه
+lang: fa
+dir: rtl
+display_name: "رضا عمرانی"
+kicker: "نویسنده · زبان‌شناس · پژوهشگر"
+intro: "این متن موقت است. در این بخش می‌توان معرفی کوتاهی از رضا عمرانی، حوزه‌های پژوهشی، آثار و زمینه‌های تخصصی او قرار داد."
+about: "این متن را با زندگی‌نامهٔ فارسی جایگزین کنید. متن می‌تواند کوتاه یا مفصل باشد."
+contact: "ایمیل عمومی، صفحهٔ دانشگاهی، ORCID، گوگل اسکالر یا سایر راه‌های ارتباطی را در این بخش قرار دهید."
+---
+<div id="top"></div>
+
+<section class="hero section-block">
+  <div class="shell">
+    <p class="hero-kicker">{{ page.kicker }}</p>
+    <h1 class="display-name">{{ page.display_name }}</h1>
+    <div class="hero-bottom">
+      <p class="hero-intro">{{ page.intro }}</p>
+      <a class="hero-arrow" href="#books" aria-label="رفتن به کتاب‌ها">↓</a>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section-block ruled-section">
+  <div class="shell split-section">
+    <p class="section-label">۰۱ / درباره</p>
+    <div class="section-copy">{{ page.about | markdownify }}</div>
+  </div>
+</section>
+
+<section id="books" class="section-block ruled-section">
+  <div class="shell">
+    <div class="section-heading-row">
+      <p class="section-label">۰۲ / کتاب‌ها</p>
+      <span class="section-count">{{ site.books_fa | size }}</span>
+    </div>
+
+    <div class="work-list">
+      {% assign books = site.books_fa | sort: "year" | reverse %}
+      {% for item in books %}
+        <a class="work-row" href="{{ item.url | relative_url }}">
+          <span class="work-index">{{ forloop.index }}</span>
+          <span class="work-title">{{ item.title }}</span>
+          <span class="work-meta">{{ item.publisher }}{% if item.publisher and item.year %}، {% endif %}{{ item.year }}</span>
+          <span class="work-arrow">↗</span>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="publications" class="section-block ruled-section">
+  <div class="shell">
+    <div class="section-heading-row">
+      <p class="section-label">۰۳ / نوشته‌ها و مقالات</p>
+      <span class="section-count">{{ site.publications_fa | size }}</span>
+    </div>
+
+    <div class="work-list">
+      {% assign pubs = site.publications_fa | sort: "year" | reverse %}
+      {% for item in pubs %}
+        <a class="work-row" href="{{ item.url | relative_url }}">
+          <span class="work-index">{{ forloop.index }}</span>
+          <span class="work-title">{{ item.title }}</span>
+          <span class="work-meta">{{ item.venue }}{% if item.venue and item.year %}، {% endif %}{{ item.year }}</span>
+          <span class="work-arrow">↗</span>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section-block ruled-section contact-section">
+  <div class="shell split-section">
+    <p class="section-label">۰۴ / تماس</p>
+    <div class="section-copy">{{ page.contact | markdownify }}</div>
+  </div>
+</section>

@@ -1,0 +1,79 @@
+---
+layout: default
+title: Home
+lang: en
+dir: ltr
+display_name: "Reza Emrani"
+kicker: "Author · Linguist · Researcher"
+intro: "Placeholder introduction. Use this space for a short description of Reza Emrani's work, research interests, and publications."
+about: "Replace this with the English biography. It can be as short or as detailed as needed."
+contact: "Add a public email address, institutional profile, ORCID, Google Scholar, or other contact links here."
+---
+<div id="top"></div>
+
+<section class="hero section-block">
+  <div class="shell">
+    <p class="hero-kicker">{{ page.kicker }}</p>
+    <h1 class="display-name">{{ page.display_name }}</h1>
+    <div class="hero-bottom">
+      <p class="hero-intro">{{ page.intro }}</p>
+      <a class="hero-arrow" href="#books" aria-label="Go to books">↓</a>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section-block ruled-section">
+  <div class="shell split-section">
+    <p class="section-label">01 / About</p>
+    <div class="section-copy">{{ page.about | markdownify }}</div>
+  </div>
+</section>
+
+<section id="books" class="section-block ruled-section">
+  <div class="shell">
+    <div class="section-heading-row">
+      <p class="section-label">02 / Selected books</p>
+      <span class="section-count">{{ site.books_en | size }}</span>
+    </div>
+
+    <div class="work-list">
+      {% assign books = site.books_en | sort: "year" | reverse %}
+      {% for item in books %}
+        <a class="work-row" href="{{ item.url | relative_url }}">
+          <span class="work-index">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
+          <span class="work-title">{{ item.title }}</span>
+          <span class="work-meta">{{ item.publisher }}{% if item.publisher and item.year %}, {% endif %}{{ item.year }}</span>
+          <span class="work-arrow">↗</span>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="publications" class="section-block ruled-section">
+  <div class="shell">
+    <div class="section-heading-row">
+      <p class="section-label">03 / Publications</p>
+      <span class="section-count">{{ site.publications_en | size }}</span>
+    </div>
+
+    <div class="work-list">
+      {% assign pubs = site.publications_en | sort: "year" | reverse %}
+      {% for item in pubs %}
+        <a class="work-row" href="{{ item.url | relative_url }}">
+          <span class="work-index">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
+          <span class="work-title">{{ item.title }}</span>
+          <span class="work-meta">{{ item.venue }}{% if item.venue and item.year %}, {% endif %}{{ item.year }}</span>
+          <span class="work-arrow">↗</span>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section-block ruled-section contact-section">
+  <div class="shell split-section">
+    <p class="section-label">04 / Contact</p>
+    <div class="section-copy">{{ page.contact | markdownify }}</div>
+  </div>
+</section>

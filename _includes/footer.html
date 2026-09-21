@@ -1,5 +1,6 @@
 <footer class="site-footer">
-  <div class="shell">
-    <p>© {{ "now" | date: "%Y" }} Reza Emrani</p>
+  <div class="shell footer-inner">
+    <span>© {{ "now" | date: "%Y" }} Reza Emrani</span>
+    <a href="#top">{% if page.lang == "fa" %}بالا ↑{% else %}Top ↑{% endif %}</a>
   </div>
 </footer>

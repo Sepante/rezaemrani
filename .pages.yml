@@ -1,0 +1,154 @@
+media:
+  - name: images
+    label: Images
+    input: assets/images
+    output: /assets/images
+  - name: documents
+    label: PDFs and documents
+    input: assets/documents
+    output: /assets/documents
+
+content:
+  - name: english_home
+    label: English page
+    type: file
+    path: en/index.html
+    format: yaml-frontmatter
+    fields:
+      - { name: layout, type: string, hidden: true }
+      - { name: title, type: string, hidden: true }
+      - { name: lang, type: string, hidden: true }
+      - { name: dir, type: string, hidden: true }
+      - { name: display_name, label: Name, type: string }
+      - { name: kicker, label: Role line, type: string }
+      - { name: intro, label: Short introduction, type: text }
+      - { name: about, label: Biography, type: text }
+      - { name: contact, label: Contact information, type: text }
+
+  - name: persian_home
+    label: صفحهٔ فارسی
+    type: file
+    path: fa/index.html
+    format: yaml-frontmatter
+    fields:
+      - { name: layout, type: string, hidden: true }
+      - { name: title, type: string, hidden: true }
+      - { name: lang, type: string, hidden: true }
+      - { name: dir, type: string, hidden: true }
+      - { name: display_name, label: نام, type: string }
+      - { name: kicker, label: معرفی کوتاه, type: string }
+      - { name: intro, label: متن معرفی, type: text }
+      - { name: about, label: زندگی‌نامه, type: text }
+      - { name: contact, label: اطلاعات تماس, type: text }
+
+  - name: books_en
+    label: English books
+    type: collection
+    path: _books_en
+    format: yaml-frontmatter
+    filename: "{primary}.md"
+    view:
+      primary: title
+      fields: [title, year, publisher]
+      sort: [year, title]
+      default: { sort: year, order: desc }
+    fields:
+      - { name: title, label: Title, type: string, required: true }
+      - { name: year, label: Year, type: number }
+      - { name: publisher, label: Publisher, type: string }
+      - { name: excerpt, label: Short description, type: text }
+      - name: cover
+        label: Cover image
+        type: image
+        options: { media: images }
+      - name: pdf
+        label: PDF
+        type: file
+        options:
+          media: documents
+          extensions: [pdf]
+      - { name: external_url, label: External link, type: string }
+      - { name: body, label: Full description, type: rich-text }
+
+  - name: books_fa
+    label: کتاب‌های فارسی
+    type: collection
+    path: _books_fa
+    format: yaml-frontmatter
+    filename: "{primary}.md"
+    view:
+      primary: title
+      fields: [title, year, publisher]
+      sort: [year, title]
+      default: { sort: year, order: desc }
+    fields:
+      - { name: title, label: عنوان, type: string, required: true }
+      - { name: year, label: سال, type: number }
+      - { name: publisher, label: ناشر, type: string }
+      - { name: excerpt, label: توضیح کوتاه, type: text }
+      - name: cover
+        label: تصویر جلد
+        type: image
+        options: { media: images }
+      - name: pdf
+        label: PDF
+        type: file
+        options:
+          media: documents
+          extensions: [pdf]
+      - { name: external_url, label: پیوند خارجی, type: string }
+      - { name: body, label: توضیح کامل, type: rich-text }
+
+  - name: publications_en
+    label: English publications
+    type: collection
+    path: _publications_en
+    format: yaml-frontmatter
+    filename: "{primary}.md"
+    view:
+      primary: title
+      fields: [title, year, venue]
+      sort: [year, title]
+      default: { sort: year, order: desc }
+    fields:
+      - { name: title, label: Title, type: string, required: true }
+      - { name: year, label: Year, type: number }
+      - { name: venue, label: Venue, type: string }
+      - { name: excerpt, label: Short description, type: text }
+      - name: pdf
+        label: PDF
+        type: file
+        options:
+          media: documents
+          extensions: [pdf]
+      - { name: external_url, label: External link, type: string }
+      - { name: body, label: Description / abstract, type: rich-text }
+
+  - name: publications_fa
+    label: نوشته‌ها و مقالات فارسی
+    type: collection
+    path: _publications_fa
+    format: yaml-frontmatter
+    filename: "{primary}.md"
+    view:
+      primary: title
+      fields: [title, year, venue]
+      sort: [year, title]
+      default: { sort: year, order: desc }
+    fields:
+      - { name: title, label: عنوان, type: string, required: true }
+      - { name: year, label: سال, type: number }
+      - { name: venue, label: محل انتشار, type: string }
+      - { name: excerpt, label: توضیح کوتاه, type: text }
+      - name: pdf
+        label: PDF
+        type: file
+        options:
+          media: documents
+          extensions: [pdf]
+      - { name: external_url, label: پیوند خارجی, type: string }
+      - { name: body, label: توضیح / چکیده, type: rich-text }
+
+settings:
+  content:
+    merge: true

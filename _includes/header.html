@@ -1,27 +1,33 @@
 <header class="site-header">
   <div class="shell header-inner">
     <a class="site-name" href="{% if page.lang == 'fa' %}{{ '/fa/' | relative_url }}{% else %}{{ '/en/' | relative_url }}{% endif %}">
-      {% if page.lang == "fa" %}رضا عمرانی{% else %}Reza Emrani{% endif %}
+      {% if page.lang == "fa" %}رضا عمرانی{% else %}REZA EMRANI{% endif %}
     </a>
 
     <nav class="main-nav" aria-label="Primary">
       {% if page.lang == "fa" %}
-        <a href="{{ '/fa/about/' | relative_url }}">درباره</a>
-        <a href="{{ '/fa/books/' | relative_url }}">کتاب‌ها</a>
-        <a href="{{ '/fa/publications/' | relative_url }}">نوشته‌ها</a>
-        <a href="{{ '/fa/contact/' | relative_url }}">تماس</a>
+        <a href="{{ '/fa/' | relative_url }}#about">درباره</a>
+        <a href="{{ '/fa/' | relative_url }}#books">کتاب‌ها</a>
+        <a href="{{ '/fa/' | relative_url }}#publications">نوشته‌ها</a>
+        <a href="{{ '/fa/' | relative_url }}#contact">تماس</a>
       {% else %}
-        <a href="{{ '/en/about/' | relative_url }}">About</a>
-        <a href="{{ '/en/books/' | relative_url }}">Books</a>
-        <a href="{{ '/en/publications/' | relative_url }}">Publications</a>
-        <a href="{{ '/en/contact/' | relative_url }}">Contact</a>
+        <a href="{{ '/en/' | relative_url }}#about">About</a>
+        <a href="{{ '/en/' | relative_url }}#books">Books</a>
+        <a href="{{ '/en/' | relative_url }}#publications">Publications</a>
+        <a href="{{ '/en/' | relative_url }}#contact">Contact</a>
       {% endif %}
     </nav>
 
     <div class="language-switch" aria-label="Language">
-      <a href="{{ '/en/' | relative_url }}" lang="en" dir="ltr">English</a>
-      <span aria-hidden="true">/</span>
-      <a href="{{ '/fa/' | relative_url }}" lang="fa" dir="rtl">فارسی</a>
+      {% if page.lang == "fa" %}
+        <a href="{{ '/en/' | relative_url }}" lang="en" dir="ltr">EN</a>
+        <span aria-hidden="true">/</span>
+        <strong lang="fa" dir="rtl">فا</strong>
+      {% else %}
+        <strong lang="en" dir="ltr">EN</strong>
+        <span aria-hidden="true">/</span>
+        <a href="{{ '/fa/' | relative_url }}" lang="fa" dir="rtl">فا</a>
+      {% endif %}
     </div>
   </div>
 </header>

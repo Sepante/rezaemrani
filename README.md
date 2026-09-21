@@ -1,56 +1,58 @@
-# Reza Emrani website skeleton
+# Reza Emrani website
 
 Bilingual Persian/English author and linguist website.
 
-## Stack
+## Current preview
 
-- GitHub repository: source and history
-- GitHub Pages: public hosting
-- Jekyll: static site generator supported natively by GitHub Pages
-- Pages CMS: browser-based editing for nontechnical collaborators
-- Custom domain: intended for `rezaemrani.com`
+https://sepante.github.io/rezaemrani/
 
-## Structure
+## Design
 
-- `/en/` English website
-- `/fa/` Persian website
-- `_books_en/`, `_books_fa/` book records
-- `_publications_en/`, `_publications_fa/` article/publication records
-- `assets/images/` images and book covers
-- `assets/documents/` PDFs
-- `.pages.yml` Pages CMS configuration
+Yellow, minimal, large-type editorial design inspired by the general visual direction of Wynn:
+bright monochrome colour, oversized typography, strict rules, and very little ornament.
 
-## First deployment
+No external web fonts are required, which also avoids depending on a font CDN for visitors in Iran.
 
-1. Create a GitHub repository, e.g. `rezaemrani-site`.
-2. Upload all files in this folder to the repository root.
-3. In GitHub: Settings → Pages.
-4. Set source to "Deploy from a branch", branch `main`, folder `/ (root)`.
-5. Wait for the default `github.io` site to publish.
-6. Open Pages CMS, connect the repository, and confirm the editable sections appear.
+## Current routing
 
-## Custom domain
+The two critical language pages are real files:
 
-Do not add the custom domain until the domain is actually registered.
+- `en/index.html` → `/rezaemrani/en/`
+- `fa/index.html` → `/rezaemrani/fa/`
 
-After registering `rezaemrani.com`:
+Navigation within each language uses page anchors (`#about`, `#books`, etc.), reducing the number
+of routes that can break while the site is still small.
 
-1. Add `rezaemrani.com` under GitHub → Settings → Pages → Custom domain.
-2. Configure the registrar's DNS records using GitHub's current custom-domain instructions.
-3. Also configure `www.rezaemrani.com`.
-4. Enable HTTPS in GitHub Pages once DNS has propagated.
+## GitHub Pages
 
-`CNAME.example` is included only as a reminder. It should not be renamed to `CNAME` until the domain is ready.
+Current `_config.yml`:
 
-## Editing
+```yaml
+url: "https://sepante.github.io"
+baseurl: "/rezaemrani"
+```
 
-Editors should use Pages CMS, not GitHub.
+When `rezaemrani.com` is connected, change that to:
 
-They can:
-- edit English and Persian biographies/contact pages
-- add/edit books
-- add/edit publications
-- upload images
-- upload PDFs
+```yaml
+url: "https://rezaemrani.com"
+baseurl: ""
+```
 
-Site templates, layout, CSS, RTL behavior, and navigation stay outside the normal editorial interface.
+## Pages CMS
+
+`.pages.yml` exposes:
+
+- English home-page text
+- Persian home-page text
+- English/Persian books
+- English/Persian publications
+- image uploads
+- PDF uploads
+
+The layout and CSS are not part of the normal editing interface.
+
+## Uploading this version
+
+Replace the existing site files in the repository root with the contents of this ZIP.
+Do not upload the ZIP itself as a single file.
