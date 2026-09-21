@@ -1,0 +1,56 @@
+title: "Reza Emrani"
+description: "Author and linguist"
+url: "https://sepante.github.io"
+baseurl: "/rezaemrani"
+
+collections:
+  books_en:
+    output: true
+    permalink: /en/books/:name/
+  books_fa:
+    output: true
+    permalink: /fa/books/:name/
+  publications_en:
+    output: true
+    permalink: /en/publications/:name/
+  publications_fa:
+    output: true
+    permalink: /fa/publications/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: books_en
+    values:
+      layout: item
+      lang: en
+      dir: ltr
+      section: books
+  - scope:
+      path: ""
+      type: books_fa
+    values:
+      layout: item
+      lang: fa
+      dir: rtl
+      section: books
+  - scope:
+      path: ""
+      type: publications_en
+    values:
+      layout: item
+      lang: en
+      dir: ltr
+      section: publications
+  - scope:
+      path: ""
+      type: publications_fa
+    values:
+      layout: item
+      lang: fa
+      dir: rtl
+      section: publications
+
+exclude:
+  - README.md
+  - CNAME.example
