@@ -16,6 +16,12 @@ collections:
   publications_fa:
     output: true
     permalink: /fa/publications/:name/
+  interviews_en:
+    output: true
+    permalink: /en/interviews/:name/
+  interviews_fa:
+    output: true
+    permalink: /fa/interviews/:name/
 
 defaults:
   - scope:
@@ -50,6 +56,22 @@ defaults:
       lang: fa
       dir: rtl
       section: publications
+  - scope:
+      path: ""
+      type: interviews_en
+    values:
+      layout: item
+      lang: en
+      dir: ltr
+      section: interviews
+  - scope:
+      path: ""
+      type: interviews_fa
+    values:
+      layout: item
+      lang: fa
+      dir: rtl
+      section: interviews
 
 exclude:
   - README.md

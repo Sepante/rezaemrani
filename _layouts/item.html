@@ -5,20 +5,22 @@ layout: default
   <div class="shell item-shell">
     <p class="section-label">
       {% if page.lang == "fa" %}
-        {% if page.section == "books" %}کتاب{% else %}نوشته{% endif %}
+        {% if page.section == "books" %}کتاب{% elsif page.section == "interviews" %}گفت‌وگو یا گزارش{% else %}نوشته{% endif %}
       {% else %}
-        {% if page.section == "books" %}Book{% else %}Publication{% endif %}
+        {% if page.section == "books" %}Book{% elsif page.section == "interviews" %}Interview or coverage{% else %}Publication{% endif %}
       {% endif %}
     </p>
 
     <h1 class="item-title">{{ page.title }}</h1>
 
     {% if page.year or page.publisher or page.venue %}
-    <p class="item-meta">
-      {% if page.publisher %}{{ page.publisher }}{% endif %}
-      {% if page.venue %}{{ page.venue }}{% endif %}
-      {% if page.year %}<span>{{ page.year }}</span>{% endif %}
-    </p>
+    <dl class="item-meta-list">
+      {% if page.publisher %}<div><dt>{% if page.lang == "fa" %}ناشر{% else %}Publisher{% endif %}</dt><dd>{{ page.publisher }}</dd></div>{% endif %}
+      {% if page.venue %}<div><dt>{% if page.lang == "fa" %}نشریه / محل انتشار{% else %}Venue{% endif %}</dt><dd>{{ page.venue }}</dd></div>{% endif %}
+      {% if page.year %}<div><dt>{% if page.lang == "fa" %}سال{% else %}Year{% endif %}</dt><dd>{{ page.year }}</dd></div>{% endif %}
+      {% if page.series %}<div><dt>{% if page.lang == "fa" %}مجموعه{% else %}Series{% endif %}</dt><dd>{{ page.series }}</dd></div>{% endif %}
+      {% if page.series_family %}<div><dt>{% if page.lang == "fa" %}بخش{% else %}Series section{% endif %}</dt><dd>{{ page.series_family }}</dd></div>{% endif %}
+    </dl>
     {% endif %}
 
     <div class="item-content-grid">
@@ -29,19 +31,9 @@ layout: default
     </div>
 
     <div class="item-links">
-      {% if page.pdf %}
-        <a class="text-link" href="{{ page.pdf | relative_url }}">
-          {% if page.lang == "fa" %}PDF ↗{% else %}PDF ↗{% endif %}
-        </a>
-      {% endif %}
-      {% if page.external_url %}
-        <a class="text-link" href="{{ page.external_url }}">
-          {% if page.lang == "fa" %}پیوند خارجی ↗{% else %}External link ↗{% endif %}
-        </a>
-      {% endif %}
-      <a class="text-link" href="{% if page.lang == 'fa' %}{{ '/fa/' | relative_url }}{% else %}{{ '/en/' | relative_url }}{% endif %}">
-        {% if page.lang == "fa" %}← بازگشت{% else %}← Back{% endif %}
-      </a>
+      {% if page.pdf %}<a class="text-link" href="{{ page.pdf | relative_url }}">PDF ↗</a>{% endif %}
+      {% if page.external_url %}<a class="text-link" href="{{ page.external_url }}">{% if page.lang == "fa" %}پیوند خارجی ↗{% else %}External link ↗{% endif %}</a>{% endif %}
+      <a class="text-link" href="{% if page.lang == 'fa' %}{{ '/fa/' | relative_url }}{% else %}{{ '/en/' | relative_url }}{% endif %}">{% if page.lang == "fa" %}← بازگشت به آرشیو{% else %}← Back to archive{% endif %}</a>
     </div>
   </div>
 </article>

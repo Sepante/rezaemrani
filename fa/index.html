@@ -47,30 +47,50 @@ contact: "ایمیل عمومی، صفحهٔ دانشگاهی، ORCID، گوگل
 </section>
 
 <section id="books" class="section-block ruled-section">
-  <div class="shell">
+  <div class="shell archive-shell">
     <div class="section-heading-row">
-      <p class="section-label">۰۲ / کتاب‌ها</p>
+      <div><p class="section-label">۰۲ / آرشیو کتاب‌ها</p><p class="archive-note">فهرست در حال تکمیل و تطبیق با شناسنامهٔ چاپ‌هاست.</p></div>
       <span class="section-count">{{ site.books_fa | size }}</span>
     </div>
 
-    <div class="work-list">
-      {% assign books = site.books_fa | sort: "year" | reverse %}
-      {% for item in books %}
-        <a class="work-row" href="{{ item.url | relative_url }}">
-          <span class="work-index">{{ forloop.index }}</span>
-          <span class="work-title">{{ item.title }}</span>
-          <span class="work-meta">{{ item.publisher }}{% if item.publisher and item.year %}، {% endif %}{{ item.year }}</span>
-          <span class="work-arrow">↗</span>
-        </a>
-      {% endfor %}
-    </div>
+    {% assign sistan_books = site.books_fa | where: "work_group", "sistan" | sort: "year" %}
+    <section class="archive-group">
+      <div class="archive-group-heading">
+        <div><p class="archive-eyebrow">مجموعهٔ سیستان</p><h2>زبان، اسطوره، ادبیات و حافظهٔ سیستان</h2></div>
+        <p>این مجموعه، خانواده‌های «گویش سیستان»، «اسطوره‌های سیستان»، «ادبیات سیستان» و «سیستان‌پژوهی» را دربر می‌گیرد. «آسوکه» به‌عنوان شاخهٔ نثر و ادبیات داستانی، با همهٔ جلدهای ثبت‌شده در همین آرشیو آمده است.</p>
+      </div>
+      <div class="series-index" aria-label="بخش‌های مجموعهٔ سیستان">
+        {% assign families = "گویش سیستان|اسطوره‌های سیستان|ادبیات سیستان: آسوکه|ادبیات سیستان|سیستان‌پژوهی" | split: "|" %}
+        {% for family in families %}
+          {% assign family_books = sistan_books | where: "series_family", family %}
+          {% if family_books.size > 0 %}<span>{{ family }} <b>{{ family_books.size }}</b></span>{% endif %}
+        {% endfor %}
+      </div>
+      <div class="work-list">
+        {% for item in sistan_books %}
+          <a class="work-row" href="{{ item.url | relative_url }}"><span class="work-index">{{ forloop.index }}</span><span class="work-title">{{ item.title }}</span><span class="work-meta">{{ item.series_family }}{% if item.year %}، {{ item.year }}{% endif %}</span><span class="work-arrow">↗</span></a>
+        {% endfor %}
+      </div>
+    </section>
+
+    {% assign education_books = site.books_fa | where: "work_group", "education" | sort: "year" %}
+    {% assign literature_books = site.books_fa | where: "work_group", "literature" | sort: "year" %}
+    <section class="archive-group">
+      <div class="archive-group-heading compact"><div><p class="archive-eyebrow">کتاب‌ها و آثار آموزشی</p><h2>زبان و ادبیات فارسی، آموزش و کتاب درسی</h2></div></div>
+      <div class="work-list">
+        {% assign other_books = education_books | concat: literature_books | sort: "title" %}
+        {% for item in other_books %}
+          <a class="work-row" href="{{ item.url | relative_url }}"><span class="work-index">{{ forloop.index }}</span><span class="work-title">{{ item.title }}</span><span class="work-meta">{{ item.publisher }}{% if item.year %}، {{ item.year }}{% endif %}</span><span class="work-arrow">↗</span></a>
+        {% endfor %}
+      </div>
+    </section>
   </div>
 </section>
 
 <section id="publications" class="section-block ruled-section">
   <div class="shell">
     <div class="section-heading-row">
-      <p class="section-label">۰۳ / نوشته‌ها و مقالات</p>
+      <p class="section-label">۰۳ / مقاله‌ها و جستارها</p>
       <span class="section-count">{{ site.publications_fa | size }}</span>
     </div>
 
@@ -88,9 +108,16 @@ contact: "ایمیل عمومی، صفحهٔ دانشگاهی، ORCID، گوگل
   </div>
 </section>
 
+<section id="interviews" class="section-block ruled-section">
+  <div class="shell split-section">
+    <p class="section-label">۰۴ / گفت‌وگوها و گزارش‌ها</p>
+    <div class="section-copy archive-placeholder"><p>گزیدهٔ گفت‌وگوها، گزارش‌ها و مستندات مربوط به غلامرضا عمرانی در این بخش افزوده خواهد شد.</p></div>
+  </div>
+</section>
+
 <section id="contact" class="section-block ruled-section contact-section">
   <div class="shell split-section">
-    <p class="section-label">۰۴ / تماس</p>
+    <p class="section-label">۰۵ / تماس</p>
     <div class="section-copy">{{ page.contact | markdownify }}</div>
   </div>
 </section>

@@ -56,6 +56,11 @@ content:
     fields:
       - { name: title, label: Title, type: string, required: true }
       - { name: year, label: Year, type: number }
+      - { name: work_group, label: Archive class, type: select, options: { values: [sistan, education, literature] } }
+      - { name: series, label: Series, type: string }
+      - { name: series_family, label: Series section, type: string }
+      - { name: machine_translation, type: boolean, hidden: true }
+      - { name: catalog_status, type: string, hidden: true }
       - { name: publisher, label: Publisher, type: string }
       - { name: excerpt, label: Short description, type: text }
       - name: cover
@@ -85,6 +90,10 @@ content:
     fields:
       - { name: title, label: عنوان, type: string, required: true }
       - { name: year, label: سال, type: number }
+      - { name: work_group, label: ردهٔ آرشیو, type: select, options: { values: [sistan, education, literature] } }
+      - { name: series, label: مجموعه, type: string }
+      - { name: series_family, label: بخش مجموعه, type: string }
+      - { name: catalog_status, type: string, hidden: true }
       - { name: publisher, label: ناشر, type: string }
       - { name: excerpt, label: توضیح کوتاه, type: text }
       - name: cover
@@ -114,6 +123,11 @@ content:
     fields:
       - { name: title, label: Title, type: string, required: true }
       - { name: year, label: Year, type: number }
+      - { name: work_group, label: Archive class, type: select, options: { values: [sistan, education, literature] } }
+      - { name: series, label: Series, type: string }
+      - { name: series_family, label: Series section, type: string }
+      - { name: machine_translation, type: boolean, hidden: true }
+      - { name: catalog_status, type: string, hidden: true }
       - { name: venue, label: Venue, type: string }
       - { name: excerpt, label: Short description, type: text }
       - name: pdf
@@ -139,6 +153,10 @@ content:
     fields:
       - { name: title, label: عنوان, type: string, required: true }
       - { name: year, label: سال, type: number }
+      - { name: work_group, label: ردهٔ آرشیو, type: select, options: { values: [sistan, education, literature] } }
+      - { name: series, label: مجموعه, type: string }
+      - { name: series_family, label: بخش مجموعه, type: string }
+      - { name: catalog_status, type: string, hidden: true }
       - { name: venue, label: محل انتشار, type: string }
       - { name: excerpt, label: توضیح کوتاه, type: text }
       - name: pdf
@@ -149,6 +167,38 @@ content:
           extensions: [pdf]
       - { name: external_url, label: پیوند خارجی, type: string }
       - { name: body, label: توضیح / چکیده, type: rich-text }
+  - name: interviews_en
+    label: English interviews and coverage
+    type: collection
+    path: _interviews_en
+    format: yaml-frontmatter
+    filename: "{primary}.md"
+    view:
+      primary: title
+      fields: [title, year, venue]
+    fields:
+      - { name: title, label: Title, type: string, required: true }
+      - { name: year, label: Year, type: number }
+      - { name: venue, label: Publication / outlet, type: string }
+      - { name: external_url, label: Source link, type: string }
+      - { name: machine_translation, type: boolean, hidden: true }
+      - { name: body, label: Notes, type: rich-text }
+
+  - name: interviews_fa
+    label: گفت‌وگوها و گزارش‌های فارسی
+    type: collection
+    path: _interviews_fa
+    format: yaml-frontmatter
+    filename: "{primary}.md"
+    view:
+      primary: title
+      fields: [title, year, venue]
+    fields:
+      - { name: title, label: عنوان, type: string, required: true }
+      - { name: year, label: سال, type: number }
+      - { name: venue, label: نشریه / رسانه, type: string }
+      - { name: external_url, label: پیوند منبع, type: string }
+      - { name: body, label: یادداشت‌ها, type: rich-text }
 
 settings:
   content:
