@@ -39,6 +39,7 @@ content:
       - { name: kicker, label: معرفی کوتاه, type: string }
       - { name: intro, label: متن معرفی, type: text }
       - { name: about, label: زندگی‌نامه, type: text }
+      - { name: bio, label: زندگی‌نامهٔ کامل, type: text }
       - { name: contact, label: اطلاعات تماس, type: text }
 
   - name: books_en

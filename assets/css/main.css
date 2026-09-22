@@ -215,6 +215,29 @@ a {
   margin-bottom: 0;
 }
 
+.biography-details {
+  margin-top: 2rem;
+  border-top: 1px solid var(--line);
+  padding-top: 1rem;
+  font-size: clamp(1rem, 1.45vw, 1.35rem);
+  line-height: 1.8;
+  letter-spacing: 0;
+}
+
+.biography-details summary {
+  cursor: pointer;
+  font-size: .9rem;
+  font-weight: 800;
+}
+
+.biography-details > div {
+  margin-top: 1.25rem;
+}
+
+.biography-details p {
+  margin-block: 0 1.25rem;
+}
+
 .section-heading-row {
   min-height: 96px;
   display: flex;
