@@ -1,7 +1,7 @@
 title: "Gholamreza Emrani"
 description: "Author, linguist, and researcher"
-url: "https://sepante.github.io"
-baseurl: "/rezaemrani"
+url: "https://rezaemrani.com"
+baseurl: ""
 
 collections:
   books_en:
