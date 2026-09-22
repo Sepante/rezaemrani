@@ -37,6 +37,10 @@ body.rtl {
   font-family: "Estedad", Tahoma, Arial, sans-serif;
 }
 
+[lang="fa"] {
+  font-family: "Estedad", Tahoma, Arial, sans-serif;
+}
+
 a {
   color: inherit;
   text-decoration-thickness: 1px;
