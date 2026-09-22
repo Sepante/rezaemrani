@@ -15,5 +15,3 @@ excerpt: "A descriptive study of the Sistan dialect."
 A descriptive study of the Sistan dialect.
 
 Emrani, Gholamreza. The Sistan Dialect, vol. 1: Phonology. Tehran: Daryaft. چاپ دوم با افزوده‌ها؛ چاپ نخست: انتشارات اردیبهشت.
-
-This record is based on published works lists and remains subject to verification against the imprint of each edition.

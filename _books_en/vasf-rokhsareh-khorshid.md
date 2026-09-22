@@ -15,5 +15,3 @@ excerpt: "A revised edition of a work first issued by Lohe Zarrin, incorporated 
 A revised edition of a work first issued by Lohe Zarrin, incorporated in the Sistan Series.
 
 Emrani, Gholamreza. A Description of the Sun’s Countenance: The Teaching Record of Gholamreza Emrani. Sistan Series, no. 13; Sistan Studies, no. 1. Tehran: Daryaft, 2nd ed., 2018.
-
-This record is based on published works lists and remains subject to verification against the imprint of each edition.

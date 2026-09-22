@@ -13,5 +13,3 @@ excerpt: "Category: سیستان‌پژوهی"
 
 ## Bibliographic record
 Emrani, Gholamreza. Sistan: A Thousand-Coloured Floral Legacy. Sistan Studies, no. 2; Sistan Series, no. 14. Tehran: Daryaft, 2018.
-
-This record is based on published works lists and remains subject to verification against the imprint of each edition.

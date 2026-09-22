@@ -12,5 +12,3 @@ excerpt: "Category: Educational and textbook works"
 
 ## Bibliographic record
 Emrani, Gholamreza, Farideh Karimi, and Hassan Zolfaghari. General Persian Language and Literature. Tehran: Cheshmeh, 1st ed., 2001. 544 pp. ISBN 9789646194144.
-
-This record is based on published works lists and remains subject to verification against the imprint of each edition.

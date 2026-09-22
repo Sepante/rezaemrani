@@ -11,5 +11,3 @@ machine_translation: true
 ## Bibliographic record
 
 Emrani, Gholamreza. “My Tribe, My Bukhara.” Ensha va Nevisandegi Monthly, year 2, no. 4, 2010.
-
-This provisional English record requires verification against the original issue.

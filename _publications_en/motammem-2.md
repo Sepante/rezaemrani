@@ -10,5 +10,3 @@ machine_translation: true
 ## Bibliographic record
 
 Emrani, Gholamreza. “Unsaid Things about Complements,” 2. The Growth of Persian Language and Literature Education, year 14, no. 53.
-
-This provisional English record requires verification against the original issue.

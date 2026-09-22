@@ -14,5 +14,3 @@ excerpt: "A descriptive study of the Sistan dialect."
 A descriptive study of the Sistan dialect.
 
 Emrani, Gholamreza. The Sistan Dialect, vol. 2: Sentence Structure in the Sistan Dialect. Tehran: Daryaft. به‌عنوان اثر شایستهٔ تقدیر در هجدهمین جشنوارهٔ کتاب فصل (تابستان ۱۳۸۹) شناخته شد.
-
-This record is based on published works lists and remains subject to verification against the imprint of each edition.

@@ -7,6 +7,14 @@
   --gutter: clamp(18px, 2.4vw, 42px);
 }
 
+@font-face {
+  font-family: "Estedad";
+  src: url("../fonts/Estedad-wght.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
 * { box-sizing: border-box; }
 
 html {
@@ -25,7 +33,8 @@ body {
 }
 
 body.rtl {
-  font-family: Tahoma, Arial, "Noto Sans Arabic", sans-serif;
+  direction: rtl;
+  font-family: "Estedad", Tahoma, Arial, sans-serif;
 }
 
 a {
@@ -287,10 +296,15 @@ a {
 .rtl .work-title {
   line-height: 1.25;
   letter-spacing: -.015em;
+  text-align: right;
 }
 
 .work-meta {
   opacity: .72;
+}
+
+.rtl .work-meta {
+  text-align: left;
 }
 
 .work-arrow {
@@ -336,6 +350,7 @@ a {
 .rtl .item-title {
   line-height: 1.05;
   letter-spacing: -.03em;
+  text-align: right;
 }
 
 .item-meta {
@@ -343,6 +358,22 @@ a {
   gap: 14px;
   margin: 0 0 50px;
   font-size: .9rem;
+}
+
+.rtl .item-meta-list,
+.rtl .item-content-grid,
+.rtl .item-links {
+  direction: rtl;
+}
+
+.rtl .item-meta-list {
+  justify-content: flex-start;
+  text-align: right;
+}
+
+.rtl .item-prose {
+  direction: rtl;
+  text-align: right;
 }
 
 .item-content-grid {

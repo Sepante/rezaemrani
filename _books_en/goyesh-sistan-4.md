@@ -15,5 +15,3 @@ excerpt: "A descriptive study of the Sistan dialect."
 A descriptive study of the Sistan dialect.
 
 Emrani, Gholamreza. The Sistan Dialect, vol. 4: Verb Group 2. Tehran: Daryaft. ۶۶۴ ص. شابک 9786006193151.
-
-This record is based on published works lists and remains subject to verification against the imprint of each edition.

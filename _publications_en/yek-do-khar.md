@@ -10,5 +10,3 @@ machine_translation: true
 ## Bibliographic record
 
 Emrani, Gholamreza. “One or Two Thorny Weeds” (My Good Teachers). Teacher’s Growth, شمارهٔ ۵، پیاپی ۱۶۳.
-
-This provisional English record requires verification against the original issue.

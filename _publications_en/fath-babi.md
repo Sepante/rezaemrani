@@ -11,5 +11,3 @@ machine_translation: true
 ## Bibliographic record
 
 Emrani, Gholamreza. “An Opening in Language and Dialect.” Nameh-ye Nimruz, March 2013.
-
-This provisional English record requires verification against the original issue.

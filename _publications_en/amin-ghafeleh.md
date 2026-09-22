@@ -11,5 +11,3 @@ machine_translation: true
 ## Bibliographic record
 
 Emrani, Gholamreza. “The Trusted One of the Caravan of Revelation.” Teacher’s Growth special issue, 2002.
-
-This provisional English record requires verification against the original issue.

@@ -15,5 +15,3 @@ excerpt: "The prose and fiction branch of Sistan Literature."
 The prose and fiction branch of Sistan Literature.
 
 Emrani, Gholamreza. Sistan Literature, prose section, fiction: Asookeh, vol. 9. Tehran: Daryaft, 780. This volume appears in catalog records and requires confirmation against the complete series.
-
-This record is based on published works lists and remains subject to verification against the imprint of each edition.

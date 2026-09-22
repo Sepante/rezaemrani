@@ -15,5 +15,3 @@ excerpt: "The poetry branch of Sistan Literature."
 The poetry branch of Sistan Literature.
 
 Emrani, Gholamreza. Sistan Literature, poetry section: Contemporary Poetry, vol. 1 (Music). Tehran: Daryaft, 2015.
-
-This record is based on published works lists and remains subject to verification against the imprint of each edition.

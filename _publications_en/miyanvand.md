@@ -10,5 +10,3 @@ machine_translation: true
 ## Bibliographic record
 
 Emrani, Gholamreza. “Do We Not Have Infixes in Persian?” The Growth of Persian Language and Literature Education.
-
-This provisional English record requires verification against the original issue.

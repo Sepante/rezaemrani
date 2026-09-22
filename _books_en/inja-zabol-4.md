@@ -13,5 +13,3 @@ excerpt: "Category: سیستان‌پژوهی"
 
 ## Bibliographic record
 Emrani, Gholamreza. Here Is Zabol, vol. 4: The Simple Past. Sistan Studies, no. 6. Tehran: Daryaft, 2020. The series number in the source list needs verification.
-
-This record is based on published works lists and remains subject to verification against the imprint of each edition.

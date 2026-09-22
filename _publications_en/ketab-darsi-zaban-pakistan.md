@@ -11,5 +11,3 @@ machine_translation: true
 ## Bibliographic record
 
 Emrani, Gholamreza. “Persian Language Teaching Textbooks in Pakistan.” Nameh-ye Farhangestan, serial 18, October 2001.
-
-This provisional English record requires verification against the original issue.

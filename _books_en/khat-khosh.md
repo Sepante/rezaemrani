@@ -11,5 +11,3 @@ excerpt: "Category: Educational and textbook works"
 
 ## Bibliographic record
 Emrani, Gholamreza. Beautiful Handwriting. Tehran: Ministry of Education.
-
-This record is based on published works lists and remains subject to verification against the imprint of each edition.

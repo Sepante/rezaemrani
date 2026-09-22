@@ -10,5 +10,3 @@ machine_translation: true
 ## Bibliographic record
 
 Emrani, Gholamreza. “A Generosity That Reaches the Horizons” (My Good Teachers). Teacher’s Growth, آبان ۱۳۷۸.
-
-This provisional English record requires verification against the original issue.

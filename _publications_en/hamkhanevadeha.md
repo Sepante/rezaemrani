@@ -10,5 +10,3 @@ machine_translation: true
 ## Bibliographic record
 
 Emrani, Gholamreza. “Word Families.” The Growth of Guidance Education, year 18, no. 2, serial 144.
-
-This provisional English record requires verification against the original issue.

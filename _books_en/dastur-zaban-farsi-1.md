@@ -11,5 +11,3 @@ excerpt: "Category: Educational and textbook works"
 
 ## Bibliographic record
 Vahidiyan Kamyar, Taqi, and Gholamreza Emrani. Persian Grammar, vol. 1. Tehran: SAMT.
-
-This record is based on published works lists and remains subject to verification against the imprint of each edition.

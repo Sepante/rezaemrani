@@ -11,5 +11,3 @@ machine_translation: true
 ## Bibliographic record
 
 Emrani, Gholamreza. “Linguistics from the Beginning to the Present Day.” The Growth of Persian Language and Literature Education, 2018, year 13, no. 50.
-
-This provisional English record requires verification against the original issue.

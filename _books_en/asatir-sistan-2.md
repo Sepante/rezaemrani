@@ -13,5 +13,3 @@ excerpt: "Category: اسطوره‌های سیستان"
 
 ## Bibliographic record
 Emrani, Gholamreza. Myths of Sistan, book 2. Tehran: Daryaft, 774.
-
-This record is based on published works lists and remains subject to verification against the imprint of each edition.

@@ -11,5 +11,3 @@ excerpt: "Category: Educational and textbook works"
 
 ## Bibliographic record
 Emrani, Gholamreza, and Hamoon Sabti. Persian Language: Teaching–Learning Strategies, vol. 2. Andisheh-Sazan va Mobtakeran Cultural Publishing Institute.
-
-This record is based on published works lists and remains subject to verification against the imprint of each edition.

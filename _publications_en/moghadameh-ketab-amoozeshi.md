@@ -11,5 +11,3 @@ machine_translation: true
 ## Bibliographic record
 
 Emrani, Gholamreza. “An Introduction to Understanding the Need to Develop, or Reject, the Place of the Educational Book.” Roshd Javaneh, nos. 18–19, 2007.
-
-This provisional English record requires verification against the original issue.

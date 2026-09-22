@@ -11,5 +11,3 @@ machine_translation: true
 ## Bibliographic record
 
 Emrani, Gholamreza. “I Would Begin with the Smallest Matters.” Ensha va Nevisandegi Monthly, nos. 44–45, June–July 2014.
-
-This provisional English record requires verification against the original issue.

@@ -12,5 +12,3 @@ excerpt: "Category: Persian language and literature"
 
 ## Bibliographic record
 Emrani, Gholamreza. A Selection of Masnavi Stories. Tehran: Companion Books, 2011. 306 pp.
-
-This record is based on published works lists and remains subject to verification against the imprint of each edition.

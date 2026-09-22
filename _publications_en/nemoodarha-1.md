@@ -10,5 +10,3 @@ machine_translation: true
 ## Bibliographic record
 
 Emrani, Gholamreza. “Diagrams,” 1. The Growth of Persian Language and Literature Education, year 15, no. 55.
-
-This provisional English record requires verification against the original issue.

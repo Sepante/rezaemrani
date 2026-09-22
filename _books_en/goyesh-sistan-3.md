@@ -14,5 +14,3 @@ excerpt: "A descriptive study of the Sistan dialect."
 A descriptive study of the Sistan dialect.
 
 Emrani, Gholamreza. The Sistan Dialect, vol. 3: Verb Group 1. Tehran: Daryaft.
-
-This record is based on published works lists and remains subject to verification against the imprint of each edition.

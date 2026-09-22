@@ -11,5 +11,3 @@ excerpt: "Category: Persian language and literature"
 
 ## Bibliographic record
 Emrani, Gholamreza. A Selection of Stories from Kalila and Dimna. Tehran: Companion Books.
-
-This record is based on published works lists and remains subject to verification against the imprint of each edition.

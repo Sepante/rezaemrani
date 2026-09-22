@@ -10,5 +10,3 @@ machine_translation: true
 ## Bibliographic record
 
 Emrani, Gholamreza. “Handwriting Practice and the Practice of Life” (My Good Teachers). Teacher’s Growth, شمارهٔ ۱، پیاپی ۱۵۹.
-
-This provisional English record requires verification against the original issue.

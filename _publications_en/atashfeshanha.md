@@ -10,5 +10,3 @@ machine_translation: true
 ## Bibliographic record
 
 Emrani, Gholamreza. “Silent Volcanoes.” The Growth of Persian Language and Literature Education, year 12, no. 45.
-
-This provisional English record requires verification against the original issue.

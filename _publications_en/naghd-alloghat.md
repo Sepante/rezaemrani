@@ -10,5 +10,3 @@ machine_translation: true
 ## Bibliographic record
 
 Emrani, Gholamreza. “A Critique of al-Lughat al-Fārsīyah: The Persian-Learning Book of al-Azhar University, Cairo.” Ayeneh-ye Pazhuhesh, year 10, no. 5, serial 59.
-
-This provisional English record requires verification against the original issue.

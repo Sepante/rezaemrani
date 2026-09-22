@@ -11,5 +11,3 @@ machine_translation: true
 ## Bibliographic record
 
 Emrani, Gholamreza. “The Reader of Mystical Prose.” Ensha va Nevisandegi Monthly, year 3, no. 15, 2011.
-
-This provisional English record requires verification against the original issue.

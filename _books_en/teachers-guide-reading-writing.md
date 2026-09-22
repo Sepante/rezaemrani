@@ -13,5 +13,3 @@ excerpt: "An instructional guide for the first-grade Persian textbook."
 An instructional guide for the first-grade Persian textbook.
 
 Emrani, Gholamreza, with Ameneh Ahmadi, Masoumeh Saravani, Rokhsareh Fazli, and Esmat Goli-Forushani. Teacher’s Guide to Reading and Writing Persian: First Grade. Andisheh-Sazan va Mobtakeran Cultural Publishing Institute.
-
-This record is based on published works lists and remains subject to verification against the imprint of each edition.
