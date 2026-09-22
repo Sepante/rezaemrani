@@ -1,6 +1,6 @@
 ---
 title: "Myths of Sistan, book 4"
-year: 1399
+year: 2020
 publisher: "نشر دریافت"
 work_group: "sistan"
 series: "Sistan Series"
@@ -12,4 +12,4 @@ excerpt: "Category: اسطوره‌های سیستان"
 ---
 
 ## Bibliographic record
-Emrani, Gholamreza. Myths of Sistan, book 4. Tehran: Daryaft, 778.
+Emrani, Gholamreza. Myths of Sistan, book 4. Tehran: Daryaft, 2020.

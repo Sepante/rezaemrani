@@ -1,6 +1,6 @@
 ---
 title: "Here Is Zabol, vol. 2: The Past Continuous"
-year: 1398
+year: 2019
 publisher: "نشر دریافت"
 work_group: "sistan"
 series: "Sistan Series"

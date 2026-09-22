@@ -1,6 +1,6 @@
 ---
 title: "Myths of Sistan, book 3"
-year: 1398
+year: 2019
 publisher: "نشر دریافت"
 work_group: "sistan"
 series: "Sistan Series"
@@ -12,4 +12,4 @@ excerpt: "Category: اسطوره‌های سیستان"
 ---
 
 ## Bibliographic record
-Emrani, Gholamreza. Myths of Sistan, book 3. Tehran: Daryaft, 777.
+Emrani, Gholamreza. Myths of Sistan, book 3. Tehran: Daryaft, 2019.

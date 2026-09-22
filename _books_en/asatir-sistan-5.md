@@ -1,6 +1,6 @@
 ---
 title: "Myths of Sistan, book 5"
-year: 1400
+year: 2021
 publisher: "نشر دریافت"
 work_group: "sistan"
 series: "Sistan Series"
@@ -12,4 +12,4 @@ excerpt: "Category: اسطوره‌های سیستان"
 ---
 
 ## Bibliographic record
-Emrani, Gholamreza. Myths of Sistan, book 5. Tehran: Daryaft, 779.
+Emrani, Gholamreza. Myths of Sistan, book 5. Tehran: Daryaft, 2021.

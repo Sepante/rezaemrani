@@ -1,6 +1,6 @@
 ---
 title: "The Reader of Mystical Prose"
-year: 1390
+year: 2011
 venue: "ماهنامهٔ انشا و نویسندگی"
 work_group: "articles_essays"
 catalog_status: "needs_issue_verification"

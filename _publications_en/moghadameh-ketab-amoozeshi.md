@@ -1,6 +1,6 @@
 ---
 title: "An Introduction to Understanding the Need to Develop, or Reject, the Place of the Educational Book"
-year: 1386
+year: 2007
 venue: "مجلهٔ رشد جوانه"
 work_group: "articles_essays"
 catalog_status: "needs_issue_verification"

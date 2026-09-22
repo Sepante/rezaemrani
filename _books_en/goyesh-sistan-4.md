@@ -1,6 +1,6 @@
 ---
 title: "The Sistan Dialect, vol. 4: Verb Group 2"
-year: 1390
+year: 2011
 publisher: "نشر دریافت"
 work_group: "sistan"
 series: "Sistan Series"

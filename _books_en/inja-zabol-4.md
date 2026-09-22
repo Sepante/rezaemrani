@@ -1,6 +1,6 @@
 ---
 title: "Here Is Zabol, vol. 4: The Simple Past"
-year: 1399
+year: 2020
 publisher: "نشر دریافت"
 work_group: "sistan"
 series: "Sistan Series"

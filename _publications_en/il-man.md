@@ -1,6 +1,6 @@
 ---
 title: "My Tribe, My Bukhara"
-year: 1389
+year: 2010
 venue: "ماهنامهٔ انشا و نویسندگی"
 work_group: "articles_essays"
 catalog_status: "needs_issue_verification"

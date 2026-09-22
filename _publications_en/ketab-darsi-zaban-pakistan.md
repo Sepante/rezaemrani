@@ -1,6 +1,6 @@
 ---
 title: "Persian Language Teaching Textbooks in Pakistan"
-year: 1380
+year: 2001
 venue: "نامهٔ فرهنگستان"
 work_group: "articles_essays"
 catalog_status: "needs_issue_verification"

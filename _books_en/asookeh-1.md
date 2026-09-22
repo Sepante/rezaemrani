@@ -1,6 +1,6 @@
 ---
 title: "Asookeh, vol. 1"
-year: 1392
+year: 2013
 publisher: "نشر دریافت"
 work_group: "sistan"
 series: "Sistan Series"
@@ -14,4 +14,4 @@ excerpt: "The prose and fiction branch of Sistan Literature."
 ## Bibliographic record
 The prose and fiction branch of Sistan Literature.
 
-Emrani, Gholamreza. Sistan Literature, prose section, fiction: Asookeh, vol. 1. Tehran: Daryaft, 771. 
+Emrani, Gholamreza. Sistan Literature, prose section, fiction: Asookeh, vol. 1. Tehran: Daryaft, 2013.

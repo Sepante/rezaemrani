@@ -1,6 +1,6 @@
 ---
 title: "An Opening in Language and Dialect"
-year: 1391
+year: 2013
 venue: "نامهٔ نیمروز"
 work_group: "articles_essays"
 catalog_status: "needs_issue_verification"

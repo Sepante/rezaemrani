@@ -1,6 +1,6 @@
 ---
 title: "I Would Begin with the Smallest Matters"
-year: 1393
+year: 2014
 venue: "ماهنامهٔ انشا و نویسندگی"
 work_group: "articles_essays"
 catalog_status: "needs_issue_verification"

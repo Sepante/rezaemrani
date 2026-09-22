@@ -1,6 +1,6 @@
 ---
 title: "Sistan: A Thousand-Coloured Floral Legacy"
-year: 1397
+year: 2018
 publisher: "نشر دریافت"
 work_group: "sistan"
 series: "Sistan Series"

@@ -1,6 +1,6 @@
 ---
 title: "Updating Persian Depends on the National Will of Iranians"
-year: 1399
+year: 2021
 venue: "ماهنامهٔ ثانیه"
 work_group: "articles_essays"
 catalog_status: "needs_issue_verification"

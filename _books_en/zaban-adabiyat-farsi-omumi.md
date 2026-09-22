@@ -1,6 +1,6 @@
 ---
 title: "General Persian Language and Literature"
-year: 1380
+year: 2001
 publisher: "انتشارات چشمه"
 work_group: "education"
 series_family: "Educational and textbook works"

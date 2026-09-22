@@ -1,6 +1,6 @@
 ---
 title: "Myths of Sistan, book 1"
-year: 1394
+year: 2015
 publisher: "نشر دریافت"
 work_group: "sistan"
 series: "Sistan Series"
@@ -12,4 +12,4 @@ excerpt: "Category: اسطوره‌های سیستان"
 ---
 
 ## Bibliographic record
-Emrani, Gholamreza. Myths of Sistan, book 1. Tehran: Daryaft, 773.
+Emrani, Gholamreza. Myths of Sistan, book 1. Tehran: Daryaft, 2015.

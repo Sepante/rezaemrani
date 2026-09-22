@@ -1,6 +1,6 @@
 ---
 title: "Sistan Literature, poetry section: Contemporary Poetry, vol. 1 (Music)"
-year: 1394
+year: 2015
 publisher: "نشر دریافت"
 work_group: "sistan"
 series: "Sistan Series"

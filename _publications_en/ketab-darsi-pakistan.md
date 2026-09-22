@@ -1,6 +1,6 @@
 ---
 title: "A Review of Persian-Teaching Textbooks in Pakistan"
-year: 1381
+year: 2002
 venue: "مجلهٔ نامهٔ پارسی"
 work_group: "articles_essays"
 catalog_status: "needs_issue_verification"

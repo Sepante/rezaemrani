@@ -1,6 +1,6 @@
 ---
 title: "The Sistan Dialect, vol. 1: Phonology"
-year: 1391
+year: 2012
 publisher: "نشر دریافت"
 work_group: "sistan"
 series: "Sistan Series"

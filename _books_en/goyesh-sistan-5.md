@@ -1,6 +1,6 @@
 ---
 title: "The Sistan Dialect, vol. 5: Verb Group 3"
-year: 1395
+year: 2016
 publisher: "نشر دریافت"
 work_group: "sistan"
 series: "Sistan Series"
