@@ -18,7 +18,7 @@ content:
       - { name: layout, type: string, hidden: true }
       - { name: title, type: string, hidden: true }
       - { name: lang, type: string, hidden: true }
-      - { name: dir, type: string, hidden: true }
+      - { name: direction, type: string, hidden: true }
       - { name: display_name, label: Name, type: string }
       - { name: kicker, label: Role line, type: string }
       - { name: intro, label: Short introduction, type: text }
@@ -34,7 +34,7 @@ content:
       - { name: layout, type: string, hidden: true }
       - { name: title, type: string, hidden: true }
       - { name: lang, type: string, hidden: true }
-      - { name: dir, type: string, hidden: true }
+      - { name: direction, type: string, hidden: true }
       - { name: display_name, label: نام, type: string }
       - { name: kicker, label: معرفی کوتاه, type: string }
       - { name: intro, label: متن معرفی, type: text }

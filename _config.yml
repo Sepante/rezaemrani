@@ -30,7 +30,7 @@ defaults:
     values:
       layout: item
       lang: en
-      dir: ltr
+      direction: ltr
       section: books
   - scope:
       path: ""
@@ -38,7 +38,7 @@ defaults:
     values:
       layout: item
       lang: fa
-      dir: rtl
+      direction: rtl
       section: books
   - scope:
       path: ""
@@ -46,7 +46,7 @@ defaults:
     values:
       layout: item
       lang: en
-      dir: ltr
+      direction: ltr
       section: publications
   - scope:
       path: ""
@@ -54,7 +54,7 @@ defaults:
     values:
       layout: item
       lang: fa
-      dir: rtl
+      direction: rtl
       section: publications
   - scope:
       path: ""
@@ -62,7 +62,7 @@ defaults:
     values:
       layout: item
       lang: en
-      dir: ltr
+      direction: ltr
       section: interviews
   - scope:
       path: ""
@@ -70,7 +70,7 @@ defaults:
     values:
       layout: item
       lang: fa
-      dir: rtl
+      direction: rtl
       section: interviews
 
 exclude:
