@@ -26,7 +26,7 @@ contact: "ایمیل عمومی، صفحهٔ دانشگاهی، ORCID، گوگل
     <h1 class="display-name">{{ page.display_name }}</h1>
     <div class="hero-bottom">
       <p class="hero-intro">{{ page.intro }}</p>
-      <a class="hero-arrow" href="#books" aria-label="رفتن به کتاب‌ها">↓</a>
+      <a class="hero-arrow" href="#works" aria-label="رفتن به آثار">↓</a>
     </div>
   </div>
 </section>
@@ -46,64 +46,37 @@ contact: "ایمیل عمومی، صفحهٔ دانشگاهی، ORCID، گوگل
   </div>
 </section>
 
-<section id="books" class="section-block ruled-section">
-  <div class="shell archive-shell">
+<section id="works" class="section-block ruled-section">
+  <div class="shell works-guide">
     <div class="section-heading-row">
-      <div><p class="section-label">۰۲ / آرشیو کتاب‌ها</p><p class="archive-note">فهرست در حال تکمیل و تطبیق با شناسنامهٔ چاپ‌هاست.</p></div>
-      <span class="section-count">{{ site.books_fa | size }}</span>
+      <div><p class="section-label">۰۲ / آثار</p><p class="archive-note">راهنمایی برای ورود به آرشیو، بر پایهٔ شاخه‌های اصلی کار.</p></div>
+      <a class="text-link" href="{{ '/fa/works/' | relative_url }}">آرشیو کامل ↗</a>
     </div>
-
-    {% assign sistan_books = site.books_fa | where: "work_group", "sistan" | sort: "year" %}
-    <section class="archive-group">
-      <div class="archive-group-heading">
-        <div><p class="archive-eyebrow">مجموعهٔ سیستان</p><h2>زبان، اسطوره، ادبیات و حافظهٔ سیستان</h2></div>
-        <p>این مجموعه، خانواده‌های «گویش سیستان»، «اسطوره‌های سیستان»، «ادبیات سیستان» و «سیستان‌پژوهی» را دربر می‌گیرد. «آسوکه» به‌عنوان شاخهٔ نثر و ادبیات داستانی، با همهٔ جلدهای ثبت‌شده در همین آرشیو آمده است.</p>
-      </div>
-      <div class="series-index" aria-label="بخش‌های مجموعهٔ سیستان">
-        {% assign families = "گویش سیستان|اسطوره‌های سیستان|ادبیات سیستان: آسوکه|ادبیات سیستان|سیستان‌پژوهی" | split: "|" %}
-        {% for family in families %}
-          {% assign family_books = sistan_books | where: "series_family", family %}
-          {% if family_books.size > 0 %}<span>{{ family }} <b>{{ family_books.size }}</b></span>{% endif %}
-        {% endfor %}
-      </div>
-      <div class="work-list">
-        {% for item in sistan_books %}
-          <a class="work-row" href="{{ item.url | relative_url }}"><span class="work-index">{{ forloop.index }}</span><span class="work-title">{{ item.title }}</span><span class="work-meta">{{ item.series_family }}{% if item.year %}، {{ item.year }}{% endif %}</span><span class="work-arrow">↗</span></a>
-        {% endfor %}
-      </div>
-    </section>
-
-    {% assign education_books = site.books_fa | where: "work_group", "education" | sort: "year" %}
-    {% assign literature_books = site.books_fa | where: "work_group", "literature" | sort: "year" %}
-    <section class="archive-group">
-      <div class="archive-group-heading compact"><div><p class="archive-eyebrow">کتاب‌ها و آثار آموزشی</p><h2>زبان و ادبیات فارسی، آموزش و کتاب درسی</h2></div></div>
-      <div class="work-list">
-        {% assign other_books = education_books | concat: literature_books | sort: "title" %}
-        {% for item in other_books %}
-          <a class="work-row" href="{{ item.url | relative_url }}"><span class="work-index">{{ forloop.index }}</span><span class="work-title">{{ item.title }}</span><span class="work-meta">{{ item.publisher }}{% if item.year %}، {{ item.year }}{% endif %}</span><span class="work-arrow">↗</span></a>
-        {% endfor %}
-      </div>
-    </section>
-  </div>
-</section>
-
-<section id="publications" class="section-block ruled-section">
-  <div class="shell">
-    <div class="section-heading-row">
-      <p class="section-label">۰۳ / مقاله‌ها و جستارها</p>
-      <span class="section-count">{{ site.publications_fa | size }}</span>
-    </div>
-
-    <div class="work-list">
-      {% assign pubs = site.publications_fa | sort: "year" | reverse %}
-      {% for item in pubs %}
-        <a class="work-row" href="{{ item.url | relative_url }}">
-          <span class="work-index">{{ forloop.index }}</span>
-          <span class="work-title">{{ item.title }}</span>
-          <span class="work-meta">{{ item.venue }}{% if item.venue and item.year %}، {% endif %}{{ item.year }}</span>
-          <span class="work-arrow">↗</span>
-        </a>
-      {% endfor %}
+    <div class="works-guide-grid">
+      <a class="works-guide-card works-guide-card-featured" href="{{ '/fa/sistan/' | relative_url }}">
+        <span class="works-guide-number">۰۱</span><span class="works-guide-kind">مجموعه</span>
+        <h2>مجموعهٔ سیستان</h2>
+        <p>زبان، اسطوره، ادبیات و حافظهٔ فرهنگی سیستان در چهار شاخهٔ پیوسته از پژوهش و نوشتن.</p>
+        <span class="works-guide-link">ورود به مجموعه ↗</span>
+      </a>
+      <a class="works-guide-card" href="{{ '/fa/works/' | relative_url }}#literature">
+        <span class="works-guide-number">۰۲</span><span class="works-guide-kind">کتاب</span>
+        <h2>زبان و ادبیات فارسی</h2>
+        <p>دستور، خوانش ادبی و گزیده‌هایی برای خوانندگان عمومی و دانشگاهی.</p>
+        <span class="works-guide-link">دیدن کتاب‌ها ↗</span>
+      </a>
+      <a class="works-guide-card" href="{{ '/fa/works/' | relative_url }}#education">
+        <span class="works-guide-number">۰۳</span><span class="works-guide-kind">آموزش</span>
+        <h2>آثار آموزشی و درسی</h2>
+        <p>منابع مدرسه و راهنمای معلم که در سال‌های فعالیت در آموزش زبان فارسی پدید آمده‌اند.</p>
+        <span class="works-guide-link">دیدن آثار آموزشی ↗</span>
+      </a>
+      <a class="works-guide-card" href="{{ '/fa/works/' | relative_url }}#articles">
+        <span class="works-guide-number">۰۴</span><span class="works-guide-kind">نوشتار</span>
+        <h2>مقاله‌ها و جستارها</h2>
+        <p>نوشتارهایی دربارهٔ زبان، آموزش، ادبیات و زندگی فرهنگی سیستان.</p>
+        <span class="works-guide-link">دیدن مقاله‌ها ↗</span>
+      </a>
     </div>
   </div>
 </section>

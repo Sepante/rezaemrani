@@ -1,0 +1,22 @@
+---
+layout: default
+title: Works
+lang: en
+direction: ltr
+translation_url: /fa/works/
+---
+<section class="archive-page section-block">
+  <div class="shell archive-shell">
+    <p class="section-label">Archive</p>
+    <div class="archive-page-heading"><h1>Works</h1><p>The complete catalogue, grouped by series and form. Each record includes available bibliographic information.</p></div>
+    <div class="archive-overview-links"><a href="#sistan">The Sistan Series <b>{{ site.books_en | where: "work_group", "sistan" | size }}</b></a><a href="#literature">Literary studies</a><a href="#education">Educational works</a><a href="#articles">Articles and essays <b>{{ site.publications_en | size }}</b></a></div>
+    {% assign sistan = site.books_en | where: "work_group", "sistan" | sort: "year" %}
+    <section id="sistan" class="archive-group"><div class="archive-group-heading"><div><p class="archive-eyebrow">Series</p><h2>The Sistan Series</h2></div><p>A structured archive of work on Sistan’s language, mythology, literature, and cultural history.</p></div><a class="archive-callout" href="{{ '/en/sistan/' | relative_url }}">Explore the series by subseries ↗</a></section>
+    {% assign literature = site.books_en | where: "work_group", "literature" | sort: "title" %}
+    <section id="literature" class="archive-group"><div class="archive-group-heading compact"><div><p class="archive-eyebrow">Books</p><h2>Persian language and literary studies</h2></div></div><div class="work-list">{% for item in literature %}<a class="work-row" href="{{ item.url | relative_url }}"><span class="work-index">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span><span class="work-title">{{ item.title }}</span><span class="work-meta">{{ item.publisher }}{% if item.year %}, {{ item.year }}{% endif %}</span><span class="work-arrow">↗</span></a>{% endfor %}</div></section>
+    {% assign education = site.books_en | where: "work_group", "education" | sort: "title" %}
+    <section id="education" class="archive-group"><div class="archive-group-heading compact"><div><p class="archive-eyebrow">Education</p><h2>Educational and textbook works</h2></div></div><div class="work-list">{% for item in education %}<a class="work-row" href="{{ item.url | relative_url }}"><span class="work-index">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span><span class="work-title">{{ item.title }}</span><span class="work-meta">{{ item.publisher }}{% if item.year %}, {{ item.year }}{% endif %}</span><span class="work-arrow">↗</span></a>{% endfor %}</div></section>
+    {% assign articles = site.publications_en | sort: "title" %}
+    <section id="articles" class="archive-group"><div class="archive-group-heading compact"><div><p class="archive-eyebrow">Writing</p><h2>Articles and essays</h2></div></div><div class="work-list">{% for item in articles %}<a class="work-row" href="{{ item.url | relative_url }}"><span class="work-index">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span><span class="work-title">{{ item.title }}</span><span class="work-meta">{{ item.venue }}{% if item.year %}, {{ item.year }}{% endif %}</span><span class="work-arrow">↗</span></a>{% endfor %}</div></section>
+  </div>
+</section>

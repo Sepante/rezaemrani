@@ -1,0 +1,16 @@
+---
+layout: default
+title: The Sistan Series
+lang: en
+direction: ltr
+translation_url: /fa/sistan/
+---
+<section class="archive-page section-block">
+  <div class="shell archive-shell">
+    <p class="section-label">Series archive</p>
+    <div class="archive-page-heading"><h1>The Sistan Series</h1><p>A connected body of work on the language, myth, literature, and cultural memory of Sistan.</p></div>
+    {% assign families = "The Sistan Dialect|Myths of Sistan|Sistan Literature: Asookeh|Sistan Literature|Sistan Studies" | split: "|" %}
+    {% for family in families %}{% assign books = site.books_en | where: "series_family", family | sort: "year" %}{% if books.size > 0 %}<section class="archive-group"><div class="archive-group-heading"><div><p class="archive-eyebrow">Sistan Series</p><h2>{{ family }}</h2></div>{% if family == "Sistan Literature: Asookeh" %}<p><i>Asookeh</i> is the prose and fiction branch of Sistan Literature. The full recorded run is kept together here.</p>{% elsif family == "The Sistan Dialect" %}<p>A descriptive study of the Sistan dialect, from phonology and sentence structure to verb groups.</p>{% endif %}</div><div class="work-list">{% for item in books %}<a class="work-row" href="{{ item.url | relative_url }}"><span class="work-index">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span><span class="work-title">{{ item.title }}</span><span class="work-meta">{{ item.publisher }}{% if item.year %}, {{ item.year }}{% endif %}</span><span class="work-arrow">↗</span></a>{% endfor %}</div></section>{% endif %}{% endfor %}
+    <p class="archive-back"><a class="text-link" href="{{ '/en/works/' | relative_url }}">← Full works archive</a></p>
+  </div>
+</section>

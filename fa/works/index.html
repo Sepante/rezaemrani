@@ -1,0 +1,22 @@
+---
+layout: default
+title: آثار
+lang: fa
+direction: rtl
+translation_url: /en/works/
+---
+<section class="archive-page section-block">
+  <div class="shell archive-shell">
+    <p class="section-label">آرشیو</p>
+    <div class="archive-page-heading"><h1>آثار</h1><p>فهرست کامل آثار، دسته‌بندی‌شده بر پایهٔ مجموعه و شکل اثر. هر رکورد اطلاعات کتاب‌شناختی موجود را دربر می‌گیرد.</p></div>
+    <div class="archive-overview-links"><a href="#sistan">مجموعهٔ سیستان <b>{{ site.books_fa | where: "work_group", "sistan" | size }}</b></a><a href="#literature">زبان و ادبیات فارسی</a><a href="#education">آثار آموزشی</a><a href="#articles">مقاله‌ها و جستارها <b>{{ site.publications_fa | size }}</b></a></div>
+    {% assign sistan = site.books_fa | where: "work_group", "sistan" | sort: "year" %}
+    <section id="sistan" class="archive-group"><div class="archive-group-heading"><div><p class="archive-eyebrow">مجموعه</p><h2>مجموعهٔ سیستان</h2></div><p>آرشیوی ساخت‌یافته از آثار مربوط به زبان، اسطوره، ادبیات و تاریخ فرهنگی سیستان.</p></div><a class="archive-callout" href="{{ '/fa/sistan/' | relative_url }}">دیدن مجموعه بر پایهٔ زیرمجموعه‌ها ↗</a></section>
+    {% assign literature = site.books_fa | where: "work_group", "literature" | sort: "title" %}
+    <section id="literature" class="archive-group"><div class="archive-group-heading compact"><div><p class="archive-eyebrow">کتاب</p><h2>زبان و ادبیات فارسی</h2></div></div><div class="work-list">{% for item in literature %}<a class="work-row" href="{{ item.url | relative_url }}"><span class="work-index">{{ forloop.index }}</span><span class="work-title">{{ item.title }}</span><span class="work-meta">{{ item.publisher }}{% if item.year %}، {{ item.year }}{% endif %}</span><span class="work-arrow">↗</span></a>{% endfor %}</div></section>
+    {% assign education = site.books_fa | where: "work_group", "education" | sort: "title" %}
+    <section id="education" class="archive-group"><div class="archive-group-heading compact"><div><p class="archive-eyebrow">آموزش</p><h2>آثار آموزشی و درسی</h2></div></div><div class="work-list">{% for item in education %}<a class="work-row" href="{{ item.url | relative_url }}"><span class="work-index">{{ forloop.index }}</span><span class="work-title">{{ item.title }}</span><span class="work-meta">{{ item.publisher }}{% if item.year %}، {{ item.year }}{% endif %}</span><span class="work-arrow">↗</span></a>{% endfor %}</div></section>
+    {% assign articles = site.publications_fa | sort: "title" %}
+    <section id="articles" class="archive-group"><div class="archive-group-heading compact"><div><p class="archive-eyebrow">نوشتار</p><h2>مقاله‌ها و جستارها</h2></div></div><div class="work-list">{% for item in articles %}<a class="work-row" href="{{ item.url | relative_url }}"><span class="work-index">{{ forloop.index }}</span><span class="work-title">{{ item.title }}</span><span class="work-meta">{{ item.venue }}{% if item.year %}، {{ item.year }}{% endif %}</span><span class="work-arrow">↗</span></a>{% endfor %}</div></section>
+  </div>
+</section>

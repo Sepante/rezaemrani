@@ -18,7 +18,7 @@ contact: "Add a public email address, institutional profile, ORCID, Google Schol
     <h1 class="display-name">{{ page.display_name }}</h1>
     <div class="hero-bottom">
       <p class="hero-intro">{{ page.intro }}</p>
-      <a class="hero-arrow" href="#books" aria-label="Go to books">↓</a>
+      <a class="hero-arrow" href="#works" aria-label="Go to works">↓</a>
     </div>
   </div>
 </section>
@@ -30,64 +30,37 @@ contact: "Add a public email address, institutional profile, ORCID, Google Schol
   </div>
 </section>
 
-<section id="books" class="section-block ruled-section">
-  <div class="shell archive-shell">
+<section id="works" class="section-block ruled-section">
+  <div class="shell works-guide">
     <div class="section-heading-row">
-      <div><p class="section-label">02 / Book archive</p><p class="archive-note">The catalogue is being completed and checked against each edition’s imprint.</p></div>
-      <span class="section-count">{{ site.books_en | size }}</span>
+      <div><p class="section-label">02 / Works</p><p class="archive-note">A guide to the archive, arranged by major body of work.</p></div>
+      <a class="text-link" href="{{ '/en/works/' | relative_url }}">Full archive ↗</a>
     </div>
-
-    {% assign sistan_books = site.books_en | where: "work_group", "sistan" | sort: "year" %}
-    <section class="archive-group">
-      <div class="archive-group-heading">
-        <div><p class="archive-eyebrow">The Sistan Series</p><h2>Language, myth, literature, and Sistan’s cultural memory</h2></div>
-        <p>The series brings together The Sistan Dialect, Myths of Sistan, Sistan Literature, and Sistan Studies. <i>Asookeh</i>, its prose and fiction branch, is represented here by every recorded volume.</p>
-      </div>
-      <div class="series-index" aria-label="Sistan Series sections">
-        {% assign families = "The Sistan Dialect|Myths of Sistan|Sistan Literature: Asookeh|Sistan Literature|Sistan Studies" | split: "|" %}
-        {% for family in families %}
-          {% assign family_books = sistan_books | where: "series_family", family %}
-          {% if family_books.size > 0 %}<span>{{ family }} <b>{{ family_books.size }}</b></span>{% endif %}
-        {% endfor %}
-      </div>
-      <div class="work-list">
-        {% for item in sistan_books %}
-          <a class="work-row" href="{{ item.url | relative_url }}"><span class="work-index">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span><span class="work-title">{{ item.title }}</span><span class="work-meta">{{ item.series_family }}{% if item.year %}, {{ item.year }}{% endif %}</span><span class="work-arrow">↗</span></a>
-        {% endfor %}
-      </div>
-    </section>
-
-    {% assign education_books = site.books_en | where: "work_group", "education" | sort: "year" %}
-    {% assign literature_books = site.books_en | where: "work_group", "literature" | sort: "year" %}
-    <section class="archive-group">
-      <div class="archive-group-heading compact"><div><p class="archive-eyebrow">Books and educational works</p><h2>Persian language, literature, education, and textbooks</h2></div></div>
-      <div class="work-list">
-        {% assign other_books = education_books | concat: literature_books | sort: "title" %}
-        {% for item in other_books %}
-          <a class="work-row" href="{{ item.url | relative_url }}"><span class="work-index">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span><span class="work-title">{{ item.title }}</span><span class="work-meta">{{ item.publisher }}{% if item.year %}, {{ item.year }}{% endif %}</span><span class="work-arrow">↗</span></a>
-        {% endfor %}
-      </div>
-    </section>
-  </div>
-</section>
-
-<section id="publications" class="section-block ruled-section">
-  <div class="shell">
-    <div class="section-heading-row">
-      <p class="section-label">03 / Articles and essays</p>
-      <span class="section-count">{{ site.publications_en | size }}</span>
-    </div>
-
-    <div class="work-list">
-      {% assign pubs = site.publications_en | sort: "year" | reverse %}
-      {% for item in pubs %}
-        <a class="work-row" href="{{ item.url | relative_url }}">
-          <span class="work-index">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
-          <span class="work-title">{{ item.title }}</span>
-          <span class="work-meta">{{ item.venue }}{% if item.venue and item.year %}, {% endif %}{{ item.year }}</span>
-          <span class="work-arrow">↗</span>
-        </a>
-      {% endfor %}
+    <div class="works-guide-grid">
+      <a class="works-guide-card works-guide-card-featured" href="{{ '/en/sistan/' | relative_url }}">
+        <span class="works-guide-number">01</span><span class="works-guide-kind">Series</span>
+        <h2>The Sistan Series</h2>
+        <p>Language, myth, literature, and cultural memory: four connected strands of research and writing.</p>
+        <span class="works-guide-link">Explore the series ↗</span>
+      </a>
+      <a class="works-guide-card" href="{{ '/en/works/' | relative_url }}#literature">
+        <span class="works-guide-number">02</span><span class="works-guide-kind">Books</span>
+        <h2>Persian language and literary studies</h2>
+        <p>Grammar, literary reading, and editions for general and university readers.</p>
+        <span class="works-guide-link">View books ↗</span>
+      </a>
+      <a class="works-guide-card" href="{{ '/en/works/' | relative_url }}#education">
+        <span class="works-guide-number">03</span><span class="works-guide-kind">Education</span>
+        <h2>Educational and textbook works</h2>
+        <p>School and teacher resources developed across a long career in Persian-language education.</p>
+        <span class="works-guide-link">View educational works ↗</span>
+      </a>
+      <a class="works-guide-card" href="{{ '/en/works/' | relative_url }}#articles">
+        <span class="works-guide-number">04</span><span class="works-guide-kind">Writing</span>
+        <h2>Articles and essays</h2>
+        <p>Essays on language, teaching, literature, and the cultural life of Sistan.</p>
+        <span class="works-guide-link">View articles ↗</span>
+      </a>
     </div>
   </div>
 </section>
