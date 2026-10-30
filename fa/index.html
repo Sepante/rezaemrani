@@ -84,7 +84,20 @@ contact: "[اینستاگرام](https://www.instagram.com/emrani1326) · [ای�
 <section id="interviews" class="section-block ruled-section">
   <div class="shell split-section">
     <p class="section-label">۰۴ / گفت‌وگوها و گزارش‌ها</p>
-    <div class="section-copy archive-placeholder"><p>مصاحبه‌ها و گزارش‌ها به‌مرور افزوده خواهند شد.</p></div>
+    <div class="section-copy">
+      <p>گفت‌وگوها و گزارش‌های بیشتری به‌مرور افزوده خواهند شد.</p>
+      <div class="work-list">
+        {% assign coverage = site.interviews_fa | sort: "year" | reverse %}
+        {% for item in coverage %}
+        <a class="work-row" href="{{ item.url | relative_url }}">
+          <span class="work-index">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
+          <span class="work-title">{{ item.title }}</span>
+          <span class="work-meta">{{ item.venue }}{% if item.year %}, {{ item.year }}{% endif %}</span>
+          <span class="work-arrow">↗</span>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
   </div>
 </section>
 

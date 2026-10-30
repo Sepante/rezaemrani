@@ -33,7 +33,7 @@ layout: default
     <div class="item-links">
       {% if page.pdf %}<a class="text-link" href="{{ page.pdf | relative_url }}">PDF ↗</a>{% endif %}
       {% if page.external_url %}<a class="text-link" href="{{ page.external_url }}">{% if page.lang == "fa" %}پیوند خارجی ↗{% else %}External link ↗{% endif %}</a>{% endif %}
-      <a class="text-link" href="{% if page.lang == 'fa' %}{{ '/fa/' | relative_url }}{% else %}{{ '/en/' | relative_url }}{% endif %}">{% if page.lang == "fa" %}← بازگشت به آرشیو{% else %}← Back to archive{% endif %}</a>
+      <a class="text-link" href="{% if page.section == 'interviews' %}{% if page.lang == 'fa' %}{{ '/fa/' | relative_url }}{% else %}{{ '/en/' | relative_url }}{% endif %}#interviews{% else %}{% if page.lang == 'fa' %}{{ '/fa/works/' | relative_url }}{% else %}{{ '/en/works/' | relative_url }}{% endif %}{% if page.section == 'publications' %}#articles{% endif %}{% endif %}">{% if page.lang == "fa" %}← بازگشت به آرشیو{% else %}← Back to archive{% endif %}</a>
     </div>
   </div>
 </article>

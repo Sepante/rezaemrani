@@ -121,9 +121,18 @@ content:
       sort: [year, title]
       default: { sort: year, order: desc }
     fields:
+      - { name: issue, label: Issue, type: string }
+      - { name: pages, label: Pages, type: string }
+      - { name: translation_url, type: string, hidden: true }
+      - { name: source_list, type: string, hidden: true }
+      - { name: verified_on, type: string, hidden: true }
+      - { name: verification_note, type: text, hidden: true }
+      - { name: source_url, type: string, hidden: true }
+      - { name: noormags_id, type: string, hidden: true }
+      - { name: original_language, type: string, hidden: true }
       - { name: title, label: Title, type: string, required: true }
       - { name: year, label: Year, type: number }
-      - { name: work_group, label: Archive class, type: select, options: { values: [sistan, education, literature] } }
+      - { name: work_group, label: Archive class, type: select, options: { values: [articles_essays] } }
       - { name: series, label: Series, type: string }
       - { name: series_family, label: Series section, type: string }
       - { name: machine_translation, type: boolean, hidden: true }
@@ -151,9 +160,18 @@ content:
       sort: [year, title]
       default: { sort: year, order: desc }
     fields:
+      - { name: issue, label: شمارهٔ نشریه, type: string }
+      - { name: pages, label: صفحات, type: string }
+      - { name: translation_url, type: string, hidden: true }
+      - { name: source_list, type: string, hidden: true }
+      - { name: verified_on, type: string, hidden: true }
+      - { name: verification_note, type: text, hidden: true }
+      - { name: source_url, type: string, hidden: true }
+      - { name: noormags_id, type: string, hidden: true }
+      - { name: original_language, type: string, hidden: true }
       - { name: title, label: عنوان, type: string, required: true }
       - { name: year, label: سال, type: number }
-      - { name: work_group, label: ردهٔ آرشیو, type: select, options: { values: [sistan, education, literature] } }
+      - { name: work_group, label: ردهٔ آرشیو, type: select, options: { values: [articles_essays] } }
       - { name: series, label: مجموعه, type: string }
       - { name: series_family, label: بخش مجموعه, type: string }
       - { name: catalog_status, type: string, hidden: true }
@@ -177,6 +195,17 @@ content:
       primary: title
       fields: [title, year, venue]
     fields:
+      - { name: issue, label: Issue, type: string }
+      - { name: pages, label: Pages, type: string }
+      - { name: translation_url, type: string, hidden: true }
+      - { name: source_list, type: string, hidden: true }
+      - { name: verified_on, type: string, hidden: true }
+      - { name: verification_note, type: text, hidden: true }
+      - { name: source_url, type: string, hidden: true }
+      - { name: noormags_id, type: string, hidden: true }
+      - { name: original_language, type: string, hidden: true }
+      - { name: catalog_status, type: string, hidden: true }
+      - { name: coverage_type, label: Type, type: select, options: { values: [interview, report, review] } }
       - { name: title, label: Title, type: string, required: true }
       - { name: year, label: Year, type: number }
       - { name: venue, label: Publication / outlet, type: string }
@@ -194,6 +223,17 @@ content:
       primary: title
       fields: [title, year, venue]
     fields:
+      - { name: issue, label: شمارهٔ نشریه, type: string }
+      - { name: pages, label: صفحات, type: string }
+      - { name: translation_url, type: string, hidden: true }
+      - { name: source_list, type: string, hidden: true }
+      - { name: verified_on, type: string, hidden: true }
+      - { name: verification_note, type: text, hidden: true }
+      - { name: source_url, type: string, hidden: true }
+      - { name: noormags_id, type: string, hidden: true }
+      - { name: original_language, type: string, hidden: true }
+      - { name: catalog_status, type: string, hidden: true }
+      - { name: coverage_type, label: نوع مطلب, type: select, options: { values: [interview, report, review] } }
       - { name: title, label: عنوان, type: string, required: true }
       - { name: year, label: سال, type: number }
       - { name: venue, label: نشریه / رسانه, type: string }

@@ -68,7 +68,20 @@ contact: "[Instagram](https://www.instagram.com/emrani1326) · [Email](mailto:em
 <section id="interviews" class="section-block ruled-section">
   <div class="shell split-section">
     <p class="section-label">04 / Interviews and coverage</p>
-    <div class="section-copy archive-placeholder"><p>Interviews and coverage will be added gradually.</p></div>
+    <div class="section-copy">
+      <p>Further interviews and coverage will be added gradually.</p>
+      <div class="work-list">
+        {% assign coverage = site.interviews_en | sort: "year" | reverse %}
+        {% for item in coverage %}
+        <a class="work-row" href="{{ item.url | relative_url }}">
+          <span class="work-index">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
+          <span class="work-title">{{ item.title }}</span>
+          <span class="work-meta">{{ item.venue }}{% if item.year %}, {{ item.year }}{% endif %}</span>
+          <span class="work-arrow">↗</span>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
   </div>
 </section>
 

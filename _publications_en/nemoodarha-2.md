@@ -1,12 +1,20 @@
 ---
-title: "Diagrams, 2"
-venue: "The Growth of Persian Language and Literature Education"
-work_group: "articles_essays"
-catalog_status: "needs_issue_verification"
-source_list: "Persian Wikipedia works list"
+title: Diagrams
+venue: Roshd-e Amuzesh-e Zaban va Adab-e Farsi
+work_group: articles_essays
+catalog_status: catalogue_verified
+source_list: Noormags article 196611
 machine_translation: true
+issue: '61'
+pages: 32–36
+noormags_id: '196611'
+external_url: https://www.noormags.ir/view/fa/articlepage/196611/
+verified_on: '2026-10-30'
+original_language: fa
+translation_url: /fa/publications/nemoodarha-2/
+year: 2002
 ---
 
 ## Bibliographic record
 
-Emrani, Gholamreza. “Diagrams,” 2. The Growth of Persian Language and Literature Education, year 15, no. 56.
+Emrani, Gholamreza. “Diagrams.” Roshd-e Amuzesh-e Zaban va Adab-e Farsi, no. 61, 2002, pp. 32–36.
