@@ -11,15 +11,15 @@ layout: default
       {% endif %}
     </p>
 
-    <h1 class="item-title">{{ page.title }}</h1>
+    <h1 class="item-title">{% if page.lang == "fa" %}{% include persian_digits.html value=page.title %}{% else %}{{ page.title }}{% endif %}</h1>
 
     {% if page.year or page.publisher or page.venue %}
     <dl class="item-meta-list">
-      {% if page.publisher %}<div><dt>{% if page.lang == "fa" %}ناشر{% else %}Publisher{% endif %}</dt><dd>{{ page.publisher }}</dd></div>{% endif %}
-      {% if page.venue %}<div><dt>{% if page.lang == "fa" %}نشریه / محل انتشار{% else %}Venue{% endif %}</dt><dd>{{ page.venue }}</dd></div>{% endif %}
-      {% if page.year %}<div><dt>{% if page.lang == "fa" %}سال{% else %}Year{% endif %}</dt><dd>{{ page.year }}</dd></div>{% endif %}
-      {% if page.series %}<div><dt>{% if page.lang == "fa" %}مجموعه{% else %}Series{% endif %}</dt><dd>{{ page.series }}</dd></div>{% endif %}
-      {% if page.series_family %}<div><dt>{% if page.lang == "fa" %}بخش{% else %}Series section{% endif %}</dt><dd>{{ page.series_family }}</dd></div>{% endif %}
+      {% if page.publisher %}<div><dt>{% if page.lang == "fa" %}ناشر{% else %}Publisher{% endif %}</dt><dd>{% if page.lang == "fa" %}{% include persian_digits.html value=page.publisher %}{% else %}{{ page.publisher }}{% endif %}</dd></div>{% endif %}
+      {% if page.venue %}<div><dt>{% if page.lang == "fa" %}نشریه / محل انتشار{% else %}Venue{% endif %}</dt><dd>{% if page.lang == "fa" %}{% include persian_digits.html value=page.venue %}{% else %}{{ page.venue }}{% endif %}</dd></div>{% endif %}
+      {% if page.year %}<div><dt>{% if page.lang == "fa" %}سال{% else %}Year{% endif %}</dt><dd>{% if page.lang == "fa" %}{% include persian_digits.html value=page.year %}{% else %}{{ page.year }}{% endif %}</dd></div>{% endif %}
+      {% if page.series %}<div><dt>{% if page.lang == "fa" %}مجموعه{% else %}Series{% endif %}</dt><dd>{% if page.lang == "fa" %}{% include persian_digits.html value=page.series %}{% else %}{{ page.series }}{% endif %}</dd></div>{% endif %}
+      {% if page.series_family %}<div><dt>{% if page.lang == "fa" %}بخش{% else %}Series section{% endif %}</dt><dd>{% if page.lang == "fa" %}{% include persian_digits.html value=page.series_family %}{% else %}{{ page.series_family }}{% endif %}</dd></div>{% endif %}
     </dl>
     {% endif %}
 

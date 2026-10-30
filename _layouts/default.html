@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f1cf18">
-  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <title>{% if page.title %}{% if page.lang == "fa" %}{% include persian_digits.html value=page.title %}{% else %}{{ page.title }}{% endif %} · {% endif %}{{ site.title }}</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 </head>

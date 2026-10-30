@@ -1,6 +1,6 @@
 <footer class="site-footer">
   <div class="shell footer-inner">
-    <span>© {{ "now" | date: "%Y" }} Gholamreza Emrani</span>
+    <span>© {% assign current_year = "now" | date: "%Y" %}{% if page.lang == "fa" %}{% include persian_digits.html value=current_year %}{% else %}{{ current_year }}{% endif %} Gholamreza Emrani</span>
     <a href="#top">{% if page.lang == "fa" %}بالا ↑{% else %}Top ↑{% endif %}</a>
   </div>
 </footer>
