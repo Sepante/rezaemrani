@@ -402,6 +402,29 @@ a {
 
 .item-prose > :first-child { margin-top: 0; }
 
+.item-source {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+  margin-bottom: 32px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--line);
+}
+
+.item-source-link {
+  font-size: clamp(1.15rem, 1.8vw, 1.6rem);
+  font-weight: 700;
+  line-height: 1.6;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: .25em;
+}
+
+.item-source-link:hover { text-decoration-thickness: 3px; }
+.item-source-link:focus-visible { outline: 2px solid currentColor; outline-offset: 6px; }
+
+
 .item-links {
   border-top: 1px solid var(--line);
   margin-top: 70px;
