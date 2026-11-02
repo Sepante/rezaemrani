@@ -28,22 +28,26 @@ layout: default
         <img class="cover-large" src="{{ page.cover | relative_url }}" alt="">
       {% endif %}
       <div class="prose item-prose">
-        {% if page.external_url or page.pdf %}
-        <div class="item-source">
-          {% if page.external_url %}
-          <a class="item-source-link" href="{{ page.external_url }}">
-            {% if page.lang == "fa" %}
-              {% if page.external_url contains 'noormags.ir' %}مشاهده در نورمگز{% elsif page.external_url contains '/magazine2/showissue/' %}مشاهده‌ی شماره‌ی نشریه{% elsif page.external_url contains '.pdf' %}خواندن نسخه‌ی اصلی (PDF){% else %}خواندن در وب‌سایت منبع{% endif %}
-            {% else %}
-              {% if page.external_url contains 'noormags.ir' %}View on Noormags{% elsif page.external_url contains '/magazine2/showissue/' %}View the journal issue{% elsif page.external_url contains '.pdf' %}Read the original PDF{% else %}Read on the source website{% endif %}
-            {% endif %}
-            <span aria-hidden="true">↗</span>
-          </a>
+        {% if page.lang == "fa" %}{% assign bibliography_title = "یادداشت کتاب‌شناختی" %}{% else %}{% assign bibliography_title = "Bibliographic record" %}{% endif %}
+        {% capture bibliography_heading_markdown %}## {{ bibliography_title }}{% endcapture %}
+        {% assign bibliography_heading = bibliography_heading_markdown | markdownify | strip %}
+        {% if content contains bibliography_heading %}
+          {% assign bibliography_parts = content | split: bibliography_heading %}
+          {{ bibliography_parts | first }}
+          <section class="item-bibliography">
+            {{ bibliography_heading }}
+            {% include item_source.html %}
+            <div class="item-bibliography-details">{{ bibliography_parts | last }}</div>
+          </section>
+        {% else %}
+          {{ content }}
+          {% if page.external_url or page.pdf %}
+          <section class="item-bibliography">
+            <h2>{% if page.lang == "fa" %}منبع{% else %}Source{% endif %}</h2>
+            {% include item_source.html %}
+          </section>
           {% endif %}
-          {% if page.pdf %}<a class="item-source-link" href="{{ page.pdf | relative_url }}">{% if page.lang == "fa" %}خواندن نسخه‌ی PDF{% else %}Read the PDF{% endif %} <span aria-hidden="true">↗</span></a>{% endif %}
-        </div>
         {% endif %}
-        {{ content }}
       </div>
     </div>
 
