@@ -1,6 +1,6 @@
 ---
 title: "Persian Language: Teaching–Learning Strategies, vol. 2"
-publisher: "مؤسسهٔ فرهنگی انتشاراتی اندیشه‌سازان و مبتکران"
+publisher: "مؤسسه‌ی فرهنگی انتشاراتی اندیشه‌سازان و مبتکران"
 work_group: "education"
 series_family: "Educational and textbook works"
 catalog_status: "needs_imprint_verification"

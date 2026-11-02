@@ -1,7 +1,7 @@
 ---
 title: "A Turbulent Life: Dr Shariati"
 year: 2012
-venue: "ماهنامهٔ انشا و نویسندگی"
+venue: "ماهنامه‌ی انشا و نویسندگی"
 work_group: "articles_essays"
 catalog_status: "needs_issue_verification"
 source_list: "Persian Wikipedia works list"

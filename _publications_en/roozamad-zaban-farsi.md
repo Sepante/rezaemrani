@@ -1,7 +1,7 @@
 ---
 title: "Updating Persian Depends on the National Will of Iranians"
 year: 2021
-venue: "ماهنامهٔ ثانیه"
+venue: "ماهنامه‌ی ثانیه"
 work_group: "articles_essays"
 catalog_status: "needs_issue_verification"
 source_list: "Persian Wikipedia works list"

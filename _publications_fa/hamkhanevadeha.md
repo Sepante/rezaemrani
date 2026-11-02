@@ -1,6 +1,6 @@
 ---
 title: "هم‌خانواده‌ها"
-venue: "مجلهٔ رشد آموزش راهنمایی"
+venue: "مجله‌ی رشد آموزش راهنمایی"
 work_group: "articles_essays"
 catalog_status: "needs_issue_verification"
 source_list: "Persian Wikipedia works list"
@@ -8,4 +8,4 @@ source_list: "Persian Wikipedia works list"
 
 ## یادداشت کتاب‌شناختی
 
-عمرانی، غلام‌رضا. «هم‌خانواده‌ها». مجلهٔ رشد آموزش راهنمایی، سال هجدهم، شمارهٔ ۲، پیاپی ۱۴۴.
+عمرانی، غلام‌رضا. «هم‌خانواده‌ها». مجله‌ی رشد آموزش راهنمایی، سال هجدهم، شماره‌ی ۲، پیاپی ۱۴۴.

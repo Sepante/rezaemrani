@@ -1,7 +1,7 @@
 ---
 title: "The Trusted One of the Caravan of Revelation"
 year: 2002
-venue: "ویژه‌نامهٔ رشد معلّم"
+venue: "ویژه‌نامه‌ی رشد معلّم"
 work_group: "articles_essays"
 catalog_status: "needs_issue_verification"
 source_list: "Persian Wikipedia works list"

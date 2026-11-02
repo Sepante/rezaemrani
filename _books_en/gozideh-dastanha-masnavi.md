@@ -1,7 +1,7 @@
 ---
 title: "A Selection of Masnavi Stories"
 year: 2011
-publisher: "مؤسسهٔ کتاب همراه"
+publisher: "مؤسسه‌ی کتاب همراه"
 work_group: "literature"
 series_family: "Persian language and literature"
 catalog_status: "needs_imprint_verification"

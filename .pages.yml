@@ -26,7 +26,7 @@ content:
       - { name: contact, label: Contact information, type: text }
 
   - name: persian_home
-    label: صفحهٔ فارسی
+    label: صفحه‌ی فارسی
     type: file
     path: fa/index.html
     format: yaml-frontmatter
@@ -39,7 +39,7 @@ content:
       - { name: kicker, label: معرفی کوتاه, type: string }
       - { name: intro, label: متن معرفی, type: text }
       - { name: about, label: زندگی‌نامه, type: text }
-      - { name: bio, label: زندگی‌نامهٔ کامل, type: text }
+      - { name: bio, label: زندگی‌نامه‌ی کامل, type: text }
       - { name: contact, label: اطلاعات تماس, type: text }
 
   - name: books_en
@@ -89,10 +89,10 @@ content:
       sort: [year, title]
       default: { sort: year, order: desc }
     fields:
-      - { name: volume, label: شمارهٔ جلد, type: number }
+      - { name: volume, label: شماره‌ی جلد, type: number }
       - { name: title, label: عنوان, type: string, required: true }
       - { name: year, label: سال, type: number }
-      - { name: work_group, label: ردهٔ آرشیو, type: select, options: { values: [sistan, education, literature] } }
+      - { name: work_group, label: رده‌ی آرشیو, type: select, options: { values: [sistan, education, literature] } }
       - { name: series, label: مجموعه, type: string }
       - { name: series_family, label: بخش مجموعه, type: string }
       - { name: catalog_status, type: string, hidden: true }
@@ -162,7 +162,7 @@ content:
       sort: [year, title]
       default: { sort: year, order: desc }
     fields:
-      - { name: issue, label: شمارهٔ نشریه, type: string }
+      - { name: issue, label: شماره‌ی نشریه, type: string }
       - { name: pages, label: صفحات, type: string }
       - { name: translation_url, type: string, hidden: true }
       - { name: source_list, type: string, hidden: true }
@@ -173,7 +173,7 @@ content:
       - { name: original_language, type: string, hidden: true }
       - { name: title, label: عنوان, type: string, required: true }
       - { name: year, label: سال, type: number }
-      - { name: work_group, label: ردهٔ آرشیو, type: select, options: { values: [articles_essays] } }
+      - { name: work_group, label: رده‌ی آرشیو, type: select, options: { values: [articles_essays] } }
       - { name: series, label: مجموعه, type: string }
       - { name: series_family, label: بخش مجموعه, type: string }
       - { name: catalog_status, type: string, hidden: true }
@@ -225,7 +225,7 @@ content:
       primary: title
       fields: [title, year, venue]
     fields:
-      - { name: issue, label: شمارهٔ نشریه, type: string }
+      - { name: issue, label: شماره‌ی نشریه, type: string }
       - { name: pages, label: صفحات, type: string }
       - { name: translation_url, type: string, hidden: true }
       - { name: source_list, type: string, hidden: true }

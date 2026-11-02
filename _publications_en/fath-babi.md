@@ -1,7 +1,7 @@
 ---
 title: "An Opening in Language and Dialect"
 year: 2013
-venue: "نامهٔ نیمروز"
+venue: "نامه‌ی نیمروز"
 work_group: "articles_essays"
 catalog_status: "needs_issue_verification"
 source_list: "Persian Wikipedia works list"

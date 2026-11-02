@@ -3,7 +3,7 @@ title: "این جا زابل ۱: از خانه تا مدرسه"
 year: 1397
 publisher: "نشر دریافت"
 work_group: "sistan"
-series: "مجموعهٔ سیستان"
+series: "مجموعه‌ی سیستان"
 series_family: "سیستان‌پژوهی"
 catalog_status: "needs_imprint_verification"
 source_list: "Persian Wikipedia works list; catalog records where noted"
@@ -11,4 +11,4 @@ excerpt: "رده: سیستان‌پژوهی."
 ---
 
 ## یادداشت کتاب‌شناختی
-عمرانی، غلام‌رضا. این جا زابل ۱: از خانه تا مدرسه. سیستان‌پژوهی، ۳؛ مجموعهٔ سیستان، ۱۵. تهران: نشر دریافت، ۱۳۹۷.
+عمرانی، غلام‌رضا. این جا زابل ۱: از خانه تا مدرسه. سیستان‌پژوهی، ۳؛ مجموعه‌ی سیستان، ۱۵. تهران: نشر دریافت، ۱۳۹۷.

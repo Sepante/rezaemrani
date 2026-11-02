@@ -3,14 +3,14 @@ title: "ادبیات سیستان، بخش نظم: شعر امروز، جلد ن
 year: 1394
 publisher: "نشر دریافت"
 work_group: "sistan"
-series: "مجموعهٔ سیستان"
+series: "مجموعه‌ی سیستان"
 series_family: "ادبیات سیستان"
 catalog_status: "needs_imprint_verification"
 source_list: "Persian Wikipedia works list; catalog records where noted"
-excerpt: "شاخهٔ نظمِ مجموعهٔ ادبیات سیستان."
+excerpt: "شاخه‌ی نظمِ مجموعه‌ی ادبیات سیستان."
 ---
 
 ## یادداشت کتاب‌شناختی
-شاخهٔ نظمِ مجموعهٔ ادبیات سیستان.
+شاخه‌ی نظمِ مجموعه‌ی ادبیات سیستان.
 
 عمرانی، غلام‌رضا. ادبیات سیستان، بخش نظم: شعر امروز، جلد نخست (موسیقی). تهران: نشر دریافت، ۱۳۹۴.

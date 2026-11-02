@@ -1,7 +1,7 @@
 ---
 title: "A Review of Persian-Teaching Textbooks in Pakistan"
 year: 2002
-venue: "مجلهٔ نامهٔ پارسی"
+venue: "مجله‌ی نامه‌ی پارسی"
 work_group: "articles_essays"
 catalog_status: "needs_issue_verification"
 source_list: "Persian Wikipedia works list"

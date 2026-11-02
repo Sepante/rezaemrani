@@ -1,7 +1,7 @@
 ---
 title: "ایل من، بخارای من"
 year: 1389
-venue: "ماهنامهٔ انشا و نویسندگی"
+venue: "ماهنامه‌ی انشا و نویسندگی"
 work_group: "articles_essays"
 catalog_status: "needs_issue_verification"
 source_list: "Persian Wikipedia works list"
@@ -9,4 +9,4 @@ source_list: "Persian Wikipedia works list"
 
 ## یادداشت کتاب‌شناختی
 
-عمرانی، غلام‌رضا. «ایل من، بخارای من». ماهنامهٔ انشا و نویسندگی، سال دوم، ش. ۴، ۱۳۸۹.
+عمرانی، غلام‌رضا. «ایل من، بخارای من». ماهنامه‌ی انشا و نویسندگی، سال دوم، ش. ۴، ۱۳۸۹.

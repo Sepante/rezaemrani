@@ -1,6 +1,6 @@
 ---
 title: "Selected Passages from the History of Bayhaqi"
-publisher: "مؤسسهٔ کتاب همراه"
+publisher: "مؤسسه‌ی کتاب همراه"
 work_group: "literature"
 series_family: "Persian language and literature"
 catalog_status: "needs_imprint_verification"

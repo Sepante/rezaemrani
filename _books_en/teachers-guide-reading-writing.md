@@ -1,6 +1,6 @@
 ---
 title: "Teacher’s Guide to Reading and Writing Persian: First Grade"
-publisher: "مؤسسهٔ فرهنگی انتشاراتی اندیشه‌سازان و مبتکران"
+publisher: "مؤسسه‌ی فرهنگی انتشاراتی اندیشه‌سازان و مبتکران"
 work_group: "education"
 series_family: "Educational and textbook works"
 catalog_status: "needs_imprint_verification"

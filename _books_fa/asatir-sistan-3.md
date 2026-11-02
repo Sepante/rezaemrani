@@ -4,7 +4,7 @@ title: "اسطوره‌های سیستان، کتاب ۳"
 year: 1398
 publisher: "نشر دریافت"
 work_group: "sistan"
-series: "مجموعهٔ سیستان"
+series: "مجموعه‌ی سیستان"
 series_family: "اسطوره‌های سیستان"
 catalog_status: "needs_imprint_verification"
 source_list: "Persian Wikipedia works list; catalog records where noted"

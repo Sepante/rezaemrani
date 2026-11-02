@@ -9,4 +9,4 @@ machine_translation: true
 
 ## Bibliographic record
 
-Emrani, Gholamreza. “Let Us Write Exactly What the Teacher Told Us” (My Good Teachers). Teacher’s Growth, شمارهٔ ۳، پیاپی ۱۶۱.
+Emrani, Gholamreza. “Let Us Write Exactly What the Teacher Told Us” (My Good Teachers). Teacher’s Growth, شماره‌ی ۳، پیاپی ۱۶۱.

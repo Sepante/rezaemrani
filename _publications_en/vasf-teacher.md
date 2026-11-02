@@ -9,4 +9,4 @@ machine_translation: true
 
 ## Bibliographic record
 
-Emrani, Gholamreza. “A Description of the Sun’s Countenance” (My Good Teachers). Teacher’s Growth, بدون شمارهٔ ثبت‌شده در فهرست.
+Emrani, Gholamreza. “A Description of the Sun’s Countenance” (My Good Teachers). Teacher’s Growth, بدون شماره‌ی ثبت‌شده در فهرست.
