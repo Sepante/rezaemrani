@@ -1,0 +1,3 @@
+{%- assign dated_items = include.items | where_exp: "item", "item.year != nil" | sort: "year" | reverse -%}
+{%- assign undated_items = include.items | where_exp: "item", "item.year == nil" | sort: "title" -%}
+{%- assign date_ordered_items = dated_items | concat: undated_items -%}
