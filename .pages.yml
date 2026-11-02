@@ -123,6 +123,10 @@ content:
       sort: [year, title]
       default: { sort: year, order: desc }
     fields:
+      - { name: issue_number, label: Issue within year, type: string }
+      - { name: journal_year, label: Journal year, type: number }
+      - { name: printed_byline, type: string, hidden: true }
+      - { name: catalogue_url, type: string, hidden: true }
       - { name: issue, label: Issue, type: string }
       - { name: pages, label: Pages, type: string }
       - { name: translation_url, type: string, hidden: true }
@@ -162,6 +166,10 @@ content:
       sort: [year, title]
       default: { sort: year, order: desc }
     fields:
+      - { name: issue_number, label: شماره در سال, type: string }
+      - { name: journal_year, label: سال نشریه, type: number }
+      - { name: printed_byline, type: string, hidden: true }
+      - { name: catalogue_url, type: string, hidden: true }
       - { name: issue, label: شماره‌ی نشریه, type: string }
       - { name: pages, label: صفحات, type: string }
       - { name: translation_url, type: string, hidden: true }
