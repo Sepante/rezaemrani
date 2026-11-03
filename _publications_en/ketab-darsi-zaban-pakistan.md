@@ -10,11 +10,14 @@ issue: '18'
 pages: 132–138
 noormags_id: '48874'
 external_url: https://www.noormags.ir/view/fa/articlepage/48874/
-verified_on: '2026-10-30'
+verified_on: '2026-11-03'
 original_language: fa
 translation_url: /fa/publications/ketab-darsi-zaban-pakistan/
+journal_year: 5
+issue_number: '2'
+verification_note: Noormags 48874 confirms autumn 1380, serial issue 18, journal year 5 and pages 132–138. User supplies within-volume issue 2 and the more specific month Mehr; no printed issue has been inspected for those two details.
 ---
 
 ## Bibliographic record
 
-Emrani, Gholamreza. “Persian Language Teaching Textbooks in Pakistan.” Nameh-ye Farhangestan, no. 18, 2001, pp. 132–138.
+Emrani, Gholamreza. “Persian Language Teaching Textbooks in Pakistan.” Nameh-ye Farhangestan, vol. 5, issue 2 (serial no. 18), September–October 2001 [Mehr 1380], pp. 132–138.
