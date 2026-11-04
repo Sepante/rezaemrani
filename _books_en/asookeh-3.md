@@ -1,6 +1,6 @@
 ---
 volume: 3
-title: "Asookeh, vol. 3"
+title: "Asookeh, vol. 3: Fiction"
 year: 2015
 publisher: "نشر دریافت"
 work_group: "sistan"

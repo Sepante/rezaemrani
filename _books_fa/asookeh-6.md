@@ -1,6 +1,6 @@
 ---
 volume: 6
-title: "آسوکه، جلد ۶"
+title: "آسوکه، جلد ۶: ادبیات داستانی"
 year: 1400
 publisher: "نشر دریافت"
 work_group: "sistan"

@@ -1,6 +1,6 @@
 ---
 volume: 9
-title: "آسوکه، جلد ۹"
+title: "آسوکه، جلد ۹: ادبیات داستانی"
 year: 1401
 publisher: "نشر دریافت"
 work_group: "sistan"

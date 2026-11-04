@@ -1,6 +1,6 @@
 ---
 volume: 2
-title: "آسوکه، جلد ۲"
+title: "آسوکه، جلد ۲: ادبیات داستانی"
 year: 1393
 publisher: "نشر دریافت"
 work_group: "sistan"

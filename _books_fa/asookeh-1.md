@@ -1,6 +1,6 @@
 ---
 volume: 1
-title: "آسوکه، جلد ۱"
+title: "آسوکه، جلد ۱: ادبیات داستانی"
 year: 1392
 publisher: "نشر دریافت"
 work_group: "sistan"

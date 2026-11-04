@@ -1,6 +1,6 @@
 ---
 volume: 1
-title: "Asookeh, vol. 1"
+title: "Asookeh, vol. 1: Fiction"
 year: 2013
 publisher: "نشر دریافت"
 work_group: "sistan"

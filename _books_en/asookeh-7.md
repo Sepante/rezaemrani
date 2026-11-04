@@ -1,6 +1,6 @@
 ---
 volume: 7
-title: "Asookeh, vol. 7"
+title: "Asookeh, vol. 7: Fiction"
 year: 2021
 publisher: "نشر دریافت"
 work_group: "sistan"

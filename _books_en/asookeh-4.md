@@ -1,6 +1,6 @@
 ---
 volume: 4
-title: "Asookeh, vol. 4"
+title: "Asookeh, vol. 4: Fiction"
 year: 2018
 publisher: "نشر دریافت"
 work_group: "sistan"

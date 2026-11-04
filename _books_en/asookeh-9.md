@@ -1,6 +1,6 @@
 ---
 volume: 9
-title: "Asookeh, vol. 9"
+title: "Asookeh, vol. 9: Fiction"
 year: 2022
 publisher: "نشر دریافت"
 work_group: "sistan"

@@ -1,6 +1,6 @@
 ---
 volume: 3
-title: "آسوکه، جلد ۳"
+title: "آسوکه، جلد ۳: ادبیات داستانی"
 year: 1394
 publisher: "نشر دریافت"
 work_group: "sistan"

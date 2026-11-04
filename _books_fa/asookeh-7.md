@@ -1,6 +1,6 @@
 ---
 volume: 7
-title: "آسوکه، جلد ۷"
+title: "آسوکه، جلد ۷: ادبیات داستانی"
 year: 1400
 publisher: "نشر دریافت"
 work_group: "sistan"

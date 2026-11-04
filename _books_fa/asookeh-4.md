@@ -1,6 +1,6 @@
 ---
 volume: 4
-title: "آسوکه، جلد ۴"
+title: "آسوکه، جلد ۴: ادبیات داستانی"
 year: 1397
 publisher: "نشر دریافت"
 work_group: "sistan"

@@ -1,6 +1,6 @@
 ---
 volume: 5
-title: "آسوکه، جلد ۵"
+title: "آسوکه، جلد ۵: ادبیات داستانی"
 year: 1398
 publisher: "نشر دریافت"
 work_group: "sistan"

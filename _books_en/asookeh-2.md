@@ -1,6 +1,6 @@
 ---
 volume: 2
-title: "Asookeh, vol. 2"
+title: "Asookeh, vol. 2: Fiction"
 year: 2014
 publisher: "نشر دریافت"
 work_group: "sistan"
