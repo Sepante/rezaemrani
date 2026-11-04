@@ -1,6 +1,6 @@
 ---
 volume: 8
-title: "Asookeh, vol. 8: Fiction"
+title: Asookeh (Fiction), Prose Section, vol. 8
 year: 2022
 publisher: Daryaft
 work_group: sistan

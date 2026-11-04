@@ -1,6 +1,6 @@
 ---
 volume: 8
-title: "آسوکه، جلد ۸: ادبیات داستانی"
+title: آسوکه (ادبیات داستانی)، بخش نثر، جلد ۸
 year: 1401
 publisher: نشر دریافت
 work_group: sistan

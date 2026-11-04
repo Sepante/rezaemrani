@@ -1,14 +1,14 @@
 ---
 volume: 9
-title: "آسوکه، جلد ۹: ادبیات داستانی"
+title: آسوکه (ادبیات داستانی)، بخش نثر، جلد ۹
 year: 1401
-publisher: "نشر دریافت"
-work_group: "sistan"
-series: "مجموعه‌ی سیستان"
-series_family: "ادبیات سیستان: آسوکه"
-catalog_status: "needs_imprint_verification"
-source_list: "Persian Wikipedia works list; catalog records where noted"
-excerpt: "شاخه‌ی نثر و ادبیات داستانی در مجموعه‌ی ادبیات سیستان."
+publisher: نشر دریافت
+work_group: sistan
+series: مجموعه‌ی سیستان
+series_family: 'ادبیات سیستان: آسوکه'
+catalog_status: needs_imprint_verification
+source_list: Persian Wikipedia works list; catalog records where noted
+excerpt: شاخه‌ی نثر و ادبیات داستانی در مجموعه‌ی ادبیات سیستان.
 ---
 
 ## یادداشت کتاب‌شناختی
