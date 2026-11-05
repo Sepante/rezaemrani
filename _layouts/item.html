@@ -52,7 +52,7 @@ layout: default
     </div>
 
     <div class="item-links">
-      <a class="text-link" href="{% if page.section == 'interviews' %}{% if page.lang == 'fa' %}{{ '/fa/' | relative_url }}{% else %}{{ '/en/' | relative_url }}{% endif %}#interviews{% else %}{% if page.lang == 'fa' %}{{ '/fa/works/' | relative_url }}{% else %}{{ '/en/works/' | relative_url }}{% endif %}{% if page.section == 'publications' %}#articles{% endif %}{% endif %}">{% if page.lang == "fa" %}← بازگشت به آرشیو{% else %}← Back to archive{% endif %}</a>
+      <a class="text-link" href="{% if page.section == 'interviews' %}{% if page.lang == 'fa' %}{{ '/fa/' | relative_url }}{% else %}{{ '/en/' | relative_url }}{% endif %}#interviews{% else %}{% if page.lang == 'fa' %}{{ '/fa/works/' | relative_url }}{% else %}{{ '/en/works/' | relative_url }}{% endif %}{% if page.section == 'publications' %}{% if page.publication_type == 'note' %}#notes{% else %}#articles{% endif %}{% endif %}{% endif %}">{% if page.lang == "fa" %}← بازگشت به آرشیو{% else %}← Back to archive{% endif %}</a>
     </div>
   </div>
 </article>

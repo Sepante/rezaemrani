@@ -2,7 +2,7 @@
 title: Do Not Say Those Caught in Your Snare Are Few — Note
 venue: 'Zal: Cultural, Literary and Social Monthly'
 issue: '12'
-work_group: articles_essays
+work_group: notes
 original_language: fa
 translation_url: /fa/publications/zal-your-snare-issue-12/
 catalog_status: author_supplied_needs_issue_verification

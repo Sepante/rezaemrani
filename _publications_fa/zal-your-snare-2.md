@@ -2,7 +2,7 @@
 title: تا نگوئی که اسیران کمند تو کمند (۲) — یادداشت
 venue: ماهنامه‌ی فرهنگی، ادبی، اجتماعی زال
 issue: '8'
-work_group: articles_essays
+work_group: notes
 original_language: fa
 translation_url: /en/publications/zal-your-snare-2/
 catalog_status: author_supplied_needs_issue_verification

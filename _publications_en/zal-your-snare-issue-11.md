@@ -2,7 +2,7 @@
 title: Do Not Say Those Caught in Your Snare Are Few (Sistan, Books, and Writers) — Note
 venue: 'Zal: Cultural, Literary and Social Monthly'
 issue: '11'
-work_group: articles_essays
+work_group: notes
 original_language: fa
 translation_url: /fa/publications/zal-your-snare-issue-11/
 catalog_status: author_supplied_needs_issue_verification
