@@ -1,0 +1,19 @@
+---
+title: یاد و نام سیستان در فکر و ذکر دیگران (۵)
+venue: ماهنامه‌ی فرهنگی، ادبی، اجتماعی زال
+issue: '6'
+work_group: articles_essays
+original_language: fa
+translation_url: /en/publications/zal-sistan-in-others-5/
+catalog_status: author_supplied_needs_issue_verification
+source_list: Author bibliography forwarded by user, messages dated 2026-11-04; received 2026-11-05
+verification_note: Title, instalment designation where supplied, and issue number transcribed from the author-supplied list. Publication date, page range and original issue have not been independently verified. Message timestamps are not publication dates. Minor unmatched parentheses and spacing normalized; author spelling retained.
+series: یاد و نام سیستان در فکر و ذکر دیگران
+series_part: 5
+---
+
+## یادداشت کتاب‌شناختی
+
+عمرانی، غلام‌رضا. «یاد و نام سیستان در فکر و ذکر دیگران (۵)». ماهنامه‌ی فرهنگی، ادبی، اجتماعی زال، شماره‌ی ۶.
+
+نوشته‌های مرتبط در این مجموعه: [یاد و نام سیستان در فکر و ذکر دیگران (۴)]({{ '/fa/publications/zal-sistan-in-others-4/' | relative_url }})
