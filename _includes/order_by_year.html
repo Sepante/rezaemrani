@@ -1,3 +1,16 @@
 {%- assign dated_items = include.items | where_exp: "item", "item.year != nil" | sort: "year" | reverse -%}
 {%- assign undated_items = include.items | where_exp: "item", "item.year == nil" | sort: "title" -%}
-{%- assign date_ordered_items = dated_items | concat: undated_items -%}
+{%- assign ordered_undated = "" | split: "|" -%}
+{%- assign seen_series = "" | split: "|" -%}
+{%- for item in undated_items -%}
+  {%- if item.related_series -%}
+    {%- unless seen_series contains item.related_series -%}
+      {%- assign series_items = undated_items | where: "related_series", item.related_series | sort: "series_order" -%}
+      {%- assign ordered_undated = ordered_undated | concat: series_items -%}
+      {%- assign seen_series = seen_series | push: item.related_series -%}
+    {%- endunless -%}
+  {%- else -%}
+    {%- assign ordered_undated = ordered_undated | push: item -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign date_ordered_items = dated_items | concat: ordered_undated -%}

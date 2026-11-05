@@ -11,10 +11,10 @@ verification_note: Title, instalment designation where supplied, and issue numbe
 series: تا نگوئی که اسیران کمند تو کمند
 series_part: 3
 publication_type: note
+related_series: تا نگوئی که اسیران کمند تو کمند
+series_order: 9
 ---
 
 ## یادداشت کتاب‌شناختی
 
 عمرانی، غلام‌رضا. «تا نگوئی که اسیران کمند تو کمند (۳)». ماهنامه‌ی فرهنگی، ادبی، اجتماعی زال، شماره‌ی ۹.
-
-نوشته‌های مرتبط در این مجموعه: [تا نگوئی که اسیران کمند تو کمند (۲)]({{ '/fa/publications/zal-your-snare-2/' | relative_url }}) · [تا نگوئی که اسیران کمند تو کمند (سیستان و کتاب و اهل قلم)]({{ '/fa/publications/zal-your-snare-issue-11/' | relative_url }})

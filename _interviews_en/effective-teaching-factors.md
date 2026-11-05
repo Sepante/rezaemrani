@@ -14,6 +14,8 @@ coverage_type: interview
 verification_note: Emrani contributions verified in the publisher transcript; print issue date and pages checked in attached publisher PDF, rather than using the later web posting date.
 compiler: جواهر مؤذنی
 machine_translation: true
+related_series: teaching-quality
+series_order: 128
 ---
 
 A discussion with Gholamreza Emrani and other participants.

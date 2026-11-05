@@ -1,0 +1,14 @@
+{% if page.related_series %}
+{% assign collection_name = page.section | append: '_' | append: page.lang %}
+{% assign related_entries = site[collection_name] | where: "related_series", page.related_series | sort: "series_order" %}
+{% if related_entries.size > 1 %}
+<nav class="related-entries" aria-label="{% if page.lang == 'fa' %}نوشته‌های مرتبط{% else %}Related entries{% endif %}">
+<h2>{% if page.lang == 'fa' %}نوشته‌های این مجموعه{% else %}Entries in this series{% endif %}</h2>
+<ul>
+{% for entry in related_entries %}
+<li>{% if entry.url == page.url %}<span aria-current="page">{% else %}<a href="{{ entry.url | relative_url }}">{% endif %}{% if page.lang == 'fa' %}{% include persian_digits.html value=entry.title %}{% else %}{{ entry.title }}{% endif %}{% if entry.issue %} — {% if page.lang == 'fa' %}شماره‌ی {% include persian_digits.html value=entry.issue %}{% else %}issue {{ entry.issue }}{% endif %}{% endif %}{% if entry.url == page.url %}</span>{% else %}</a>{% endif %}</li>
+{% endfor %}
+</ul>
+</nav>
+{% endif %}
+{% endif %}

@@ -14,6 +14,8 @@ coverage_type: interview
 verification_note: Catalogue identifies Emrani as a participant/interviewee, not sole author.
 noormags_id: '879503'
 machine_translation: true
+related_series: teaching-assessment
+series_order: 101
 ---
 
 A discussion with Gholamreza Emrani and other participants.
@@ -21,5 +23,3 @@ A discussion with Gholamreza Emrani and other participants.
 ## Bibliographic record
 
 “Teaching and Assessment Methods, Issue 101.” Roshd-e Amuzesh-e Zaban va Adab-e Farsi, no. 101, spring 2012 [1391], pp. 3–8.
-
-Related part: [Teaching and Assessment Methods, Issue 102]({{ '/en/interviews/teaching-assessment-102/' | relative_url }}).

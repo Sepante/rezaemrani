@@ -1,5 +1,5 @@
 ---
-title: Sistan Literature (6)
+title: Sistan Literature, Part 6
 venue: 'Zal: Cultural, Literary and Social Monthly'
 issue: '10'
 work_group: articles_essays
@@ -11,10 +11,10 @@ verification_note: Title, instalment designation where supplied, and issue numbe
 machine_translation: true
 series: Sistan Literature
 series_part: 6
+related_series: Sistan Literature
+series_order: 10
 ---
 
 ## Bibliographic record
 
 Emrani, Gholamreza. “Sistan Literature (6).” Zal: Cultural, Literary and Social Monthly, no. 10.
-
-Related entries in this series: [Sistan Literature (5)]({{ '/en/publications/zal-sistan-literature-5/' | relative_url }}) · [Sistan Literature (9)]({{ '/en/publications/zal-sistan-literature-9/' | relative_url }})

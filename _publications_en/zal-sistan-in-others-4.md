@@ -11,10 +11,10 @@ verification_note: Title, instalment designation where supplied, and issue numbe
 machine_translation: true
 series: Sistan in the Thoughts and Words of Others
 series_part: 4
+related_series: Sistan in the Thoughts and Words of Others
+series_order: 4
 ---
 
 ## Bibliographic record
 
 Emrani, Gholamreza. “Sistan in the Thoughts and Words of Others (4).” Zal: Cultural, Literary and Social Monthly, no. 4.
-
-Related entries in this series: [Sistan in the Thoughts and Words of Others (3)]({{ '/en/publications/zal-sistan-in-others-3/' | relative_url }}) · [Sistan in the Thoughts and Words of Others (5)]({{ '/en/publications/zal-sistan-in-others-5/' | relative_url }})

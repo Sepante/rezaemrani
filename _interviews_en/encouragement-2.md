@@ -14,6 +14,8 @@ coverage_type: interview
 verification_note: Printed contents, Emrani contributions and issue details checked in the original publisher issue. URL directory year is not publication year.
 compiler: لیلا لطفی
 machine_translation: true
+related_series: encouragement
+series_order: 106
 ---
 
 A discussion with Gholamreza Emrani and other participants.
@@ -21,5 +23,3 @@ A discussion with Gholamreza Emrani and other participants.
 ## Bibliographic record
 
 “Encouragement: An Exceptional Approach, Part 2.” Roshd-e Amuzesh-e Zaban va Adab-e Farsi, no. 106, summer 2013 [1392], pp. 4–7.
-
-Related part: [Encouragement: An Exceptional Approach, Part 1]({{ '/en/interviews/encouragement-1/' | relative_url }}).

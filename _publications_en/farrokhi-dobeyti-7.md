@@ -15,10 +15,10 @@ issue: '8'
 publication_context: فرهنگ و هنر سیستان و بلوچستان
 series_part: 7
 series: A Look at Sistani Dobeyti Poems
+related_series: A Look at Sistani Dobeyti Poems
+series_order: 8
 ---
 
 ## Bibliographic record
 
 Emrani, Gholamreza; Ebrahim Nosratpanah. “A Look at Sistani Dobeyti Poems (7).” Farrokhi Sistani Monthly, Culture and Art of Sistan and Baluchestan, no. 8.
-
-Related entries: [A Look at Sistani Dobeyti Poems (6)]({{ '/en/publications/farrokhi-dobeyti-6/' | relative_url }}) · [A Look at Sistani Dobeyti Poems (8)]({{ '/en/publications/farrokhi-dobeyti-8/' | relative_url }})

@@ -727,3 +727,9 @@ a:focus-visible, summary:focus-visible { outline: 2px solid currentColor; outlin
   html { scroll-behavior: auto; }
   .work-row, .works-guide-card { transition: none; }
 }
+
+.related-entries { margin-top: 32px; max-width: 65ch; }
+.related-entries h2 { font-size: 1.05rem; font-weight: 500; }
+.related-entries ul { padding-inline-start: 1.25rem; font-size: .95rem; line-height: 1.9; }
+.related-entries li { margin-block: 8px; }
+.related-entries [aria-current="page"] { font-weight: 600; }

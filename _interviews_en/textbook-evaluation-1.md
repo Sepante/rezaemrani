@@ -14,6 +14,8 @@ coverage_type: interview
 verification_note: Emrani contributions verified in the publisher transcript; print issue date and pages checked in attached publisher PDF, rather than using the later web posting date.
 compiler: جواهر مؤذنی
 machine_translation: true
+related_series: textbook-evaluation
+series_order: 131
 ---
 
 A discussion with Gholamreza Emrani and other participants.
@@ -21,5 +23,3 @@ A discussion with Gholamreza Emrani and other participants.
 ## Bibliographic record
 
 “Evaluating Upper Secondary Persian and Writing Textbooks, Part 1.” Roshd-e Amuzesh-e Zaban va Adab-e Farsi, no. 131, winter 2020–2021 [1399], pp. 3–7.
-
-Related part: [Evaluating Upper Secondary Persian and Writing Textbooks, Part 2]({{ '/en/interviews/textbook-evaluation-2/' | relative_url }}).

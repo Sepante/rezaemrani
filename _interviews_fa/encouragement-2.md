@@ -13,6 +13,8 @@ verified_on: '2026-11-02'
 coverage_type: interview
 verification_note: Printed contents, Emrani contributions and issue details checked in the original publisher issue. URL directory year is not publication year.
 compiler: لیلا لطفی
+related_series: encouragement
+series_order: 106
 ---
 
 گفت‌وگویی با حضور غلام‌رضا عمرانی و دیگر صاحب‌نظران.
@@ -20,5 +22,3 @@ compiler: لیلا لطفی
 ## یادداشت کتاب‌شناختی
 
 ««تشویق» راهکاری استثنایی، بخش دوم». رشد آموزش زبان و ادب فارسی، شماره‌ی ۱۰۶، تابستان ۱۳۹۲، صص. ۴–۷.
-
-بخش مرتبط: [«تشویق» راهکاری استثنایی، بخش نخست]({{ '/fa/interviews/encouragement-1/' | relative_url }}).

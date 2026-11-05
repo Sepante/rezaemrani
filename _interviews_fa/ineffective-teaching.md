@@ -13,6 +13,8 @@ verified_on: '2026-11-02'
 coverage_type: interview
 verification_note: Emrani contributions verified in the publisher transcript; print issue date and pages checked in attached publisher PDF, rather than using the later web posting date.
 compiler: جواهر مؤذنی
+related_series: teaching-quality
+series_order: 129
 ---
 
 گفت‌وگویی با حضور غلام‌رضا عمرانی و دیگر صاحب‌نظران.

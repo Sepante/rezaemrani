@@ -15,10 +15,10 @@ issue: '4'
 publication_context: فرهنگ و هنر سیستان و بلوچستان
 series_part: 3
 series: A Look at Sistani Dobeyti Poems
+related_series: A Look at Sistani Dobeyti Poems
+series_order: 4
 ---
 
 ## Bibliographic record
 
 Emrani, Gholamreza; Ebrahim Nosratpanah. “A Look at Sistani Dobeyti Poems (3).” Farrokhi Sistani Monthly, Culture and Art of Sistan and Baluchestan, no. 4.
-
-Related entries: [A Look at Sistani Dobeyti Poems (2)]({{ '/en/publications/farrokhi-dobeyti-2/' | relative_url }}) · [A Look at Sistani Dobeyti Poems]({{ '/en/publications/farrokhi-dobeyti-issue-6/' | relative_url }})

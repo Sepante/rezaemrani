@@ -12,10 +12,10 @@ machine_translation: true
 series: Do Not Say Those Caught in Your Snare Are Few
 series_part: 1
 publication_type: note
+related_series: Do Not Say Those Caught in Your Snare Are Few
+series_order: 7
 ---
 
 ## Bibliographic record
 
 Emrani, Gholamreza. “Do Not Say Those Caught in Your Snare Are Few (1).” Zal: Cultural, Literary and Social Monthly, no. 7.
-
-Related entries in this series: [Do Not Say Those Caught in Your Snare Are Few (2)]({{ '/en/publications/zal-your-snare-2/' | relative_url }})

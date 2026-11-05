@@ -13,6 +13,8 @@ verified_on: '2026-11-02'
 coverage_type: interview
 verification_note: Catalogue identifies Emrani as a participant/interviewee, not sole author.
 noormags_id: '879503'
+related_series: teaching-assessment
+series_order: 101
 ---
 
 گفت‌وگویی با حضور غلام‌رضا عمرانی و دیگر صاحب‌نظران.
@@ -20,5 +22,3 @@ noormags_id: '879503'
 ## یادداشت کتاب‌شناختی
 
 «روش‌های تدریس و ارزش‌یابی، شماره‌ی ۱۰۱». رشد آموزش زبان و ادب فارسی، شماره‌ی ۱۰۱، بهار ۱۳۹۱، صص. ۳–۸.
-
-بخش مرتبط: [روش‌های تدریس و ارزش‌یابی، شماره‌ی ۱۰۲]({{ '/fa/interviews/teaching-assessment-102/' | relative_url }}).
