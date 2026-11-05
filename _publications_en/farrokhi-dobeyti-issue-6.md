@@ -1,0 +1,23 @@
+---
+title: A Look at Sistani Dobeyti Poems
+venue: Farrokhi Sistani Monthly
+work_group: articles_essays
+original_language: fa
+translation_url: /fa/publications/farrokhi-dobeyti-issue-6/
+catalog_status: author_supplied_needs_issue_verification
+source_list: Author bibliography forwarded by user, messages dated 2026-11-05
+verification_note: Author-supplied title and issue details; no independently matching original issue or catalogue record located. Publication pages not supplied. Message timestamps are not publication dates. The issue-6 entry has no supplied instalment number; no number inferred.
+authors:
+- غلام‌رضا عمرانی
+- ابراهیم نصرت‌پناه
+machine_translation: true
+issue: '6'
+publication_context: فرهنگ و هنر سیستان و بلوچستان
+series: A Look at Sistani Dobeyti Poems
+---
+
+## Bibliographic record
+
+Emrani, Gholamreza; Ebrahim Nosratpanah. “A Look at Sistani Dobeyti Poems.” Farrokhi Sistani Monthly, Culture and Art of Sistan and Baluchestan, no. 6.
+
+Related entries: [A Look at Sistani Dobeyti Poems (3)]({{ '/en/publications/farrokhi-dobeyti-3/' | relative_url }}) · [A Look at Sistani Dobeyti Poems (6)]({{ '/en/publications/farrokhi-dobeyti-6/' | relative_url }})
