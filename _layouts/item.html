@@ -5,9 +5,9 @@ layout: default
   <div class="shell item-shell">
     <p class="section-label">
       {% if page.lang == "fa" %}
-        {% if page.section == "books" %}کتاب{% elsif page.section == "interviews" %}گفت‌وگو یا گزارش{% else %}نوشته{% endif %}
+        {% if page.section == "books" %}کتاب{% elsif page.section == "interviews" %}گفت‌وگو یا گزارش{% elsif page.publication_type == "note" %}یادداشت{% else %}نوشته{% endif %}
       {% else %}
-        {% if page.section == "books" %}Book{% elsif page.section == "interviews" %}Interview or coverage{% else %}Publication{% endif %}
+        {% if page.section == "books" %}Book{% elsif page.section == "interviews" %}Interview or coverage{% elsif page.publication_type == "note" %}Note{% else %}Publication{% endif %}
       {% endif %}
     </p>
 

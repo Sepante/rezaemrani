@@ -1,5 +1,5 @@
 ---
-title: Do Not Say Those Caught in Your Snare Are Few (1)
+title: Do Not Say Those Caught in Your Snare Are Few (1) — Note
 venue: 'Zal: Cultural, Literary and Social Monthly'
 issue: '7'
 work_group: articles_essays
@@ -11,6 +11,7 @@ verification_note: Title, instalment designation where supplied, and issue numbe
 machine_translation: true
 series: Do Not Say Those Caught in Your Snare Are Few
 series_part: 1
+publication_type: note
 ---
 
 ## Bibliographic record
