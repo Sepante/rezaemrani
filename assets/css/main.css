@@ -1,4 +1,6 @@
 :root {
+  color-scheme: light;
+  color-scheme: only light;
   --yellow: #f1cf18;
   --ink: #11110e;
   --line: rgba(17, 17, 14, 0.78);
