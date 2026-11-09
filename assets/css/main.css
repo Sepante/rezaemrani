@@ -199,7 +199,7 @@ a {
 
 .section-label {
   margin: 0;
-  font-size: .8rem;
+  font-size: 1.1rem;
   text-transform: uppercase;
   letter-spacing: .03em;
   font-weight: 700;
@@ -671,9 +671,9 @@ border-bottom: 1px solid var(--line); padding-block: 16px; align-items: center; 
 .works-guide-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); border-top: 1px solid var(--line); border-inline-start: 1px solid var(--line); }
 .works-guide-card { min-height: 240px; padding: clamp(20px, 3vw, 42px); display: grid; grid-template-columns: 1fr auto; grid-template-rows: auto 1fr auto; gap: 14px; border-bottom: 1px solid var(--line); text-decoration: none; transition: background-color .16s ease; border-inline-end: 1px solid var(--line); }
 .works-guide-card:hover { background: rgba(255,255,255,.14); }
-.works-guide-number, .works-guide-kind, .works-guide-link { font-size: .78rem; font-weight: 800; }
+.works-guide-number, .works-guide-kind, .works-guide-link { font-size: .9rem; font-weight: 800; }
 .works-guide-kind { justify-self: end; text-transform: uppercase; letter-spacing: .04em; }
-.works-guide-card h2 { grid-column: 1 / -1; align-self: end; max-width: 24ch; margin: 0; font-size: clamp(1.5rem, 2.5vw, 2.2rem); line-height: 1.4; letter-spacing: -.025em; }
+.works-guide-card h2 { grid-column: 1 / -1; align-self: end; max-width: 24ch; margin: 0; font-size: clamp(1.35rem, 1.9vw, 1.7rem); line-height: 1.4; letter-spacing: -.025em; }
 .works-guide-card p { grid-column: 1 / -1; max-width: 38rem; margin: 0; font-size: 1.05rem; line-height: 1.75; }
 .works-guide-link { grid-column: 1 / -1; align-self: end; }
 .rtl .works-guide-kind { text-transform: none; letter-spacing: 0; }
