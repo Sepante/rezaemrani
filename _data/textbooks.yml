@@ -1,0 +1,500 @@
+verified_on: '2026-11-16'
+categories:
+- id: primary
+  title_fa: ابتدایی
+  title_en: Primary school
+- id: primary-guides
+  title_fa: راهنماهای معلم ابتدایی
+  title_en: Primary teacher guides
+- id: former-secondary
+  title_fa: دبیرستان ـ نظام پیشین
+  title_en: Former high-school curriculum
+- id: secondary
+  title_fa: متوسطه‌ی دوم
+  title_en: Upper secondary
+- id: planning
+  title_fa: برنامه‌ریزی درسی ـ متوسطه‌ی دوم
+  title_en: Curriculum planning — upper secondary
+- id: vocational
+  title_fa: برنامه‌ریزی درسی ـ فنی‌وحرفه‌ای و کاردانش
+  title_en: Curriculum planning — vocational education
+- id: secondary-guides
+  title_fa: برنامه‌ریزی درسی ـ راهنماهای معلم
+  title_en: Curriculum planning — teacher guides
+records:
+- id: primary-1
+  category: primary
+  role: coauthor
+  title_fa: فارسی / بخوانیم
+  title_en: Persian / Reading
+  level_fa: پایه‌ی ۱
+  level_en: Grade 1
+  editions:
+  - year_sh: 1391
+    code: '1'
+    catalogue_url: http://chap.sch.ir/books/21
+    pdf_url: http://chap.sch.ir/sites/default/files/books/91-92/4/000-C1_0.pdf
+  - year_sh: 1394
+    code: '1'
+    catalogue_url: http://chap.sch.ir/books/3011
+    pdf_url: http://chap.sch.ir/sites/default/files/books/94-95/4/000-C1.pdf
+  - year_sh: 1405
+    code: '103'
+    catalogue_url: http://chap.sch.ir/books/14143
+    pdf_url: http://chap.sch.ir/sites/default/files/lbooks/1405-1406/8/C103.pdf
+- id: primary-2
+  category: primary
+  role: coauthor
+  title_fa: کتاب کار فارسی / نگارش
+  title_en: Persian Workbook / Writing
+  level_fa: پایه‌ی ۱
+  level_en: Grade 1
+  editions:
+  - year_sh: 1391
+    code: 1/1
+    catalogue_url: http://chap.sch.ir/books/28
+    pdf_url: http://chap.sch.ir/sites/default/files/books/91-92/4/000-C1-1.pdf
+  - year_sh: 1394
+    code: 1/1
+    catalogue_url: http://chap.sch.ir/books/3012
+    pdf_url: http://chap.sch.ir/sites/default/files/books/94-95/4/000-C1-1.pdf
+  - year_sh: 1405
+    code: '104'
+    catalogue_url: http://chap.sch.ir/books/14144
+    pdf_url: http://chap.sch.ir/sites/default/files/lbooks/1405-1406/8/C104.pdf
+- id: primary-3
+  category: primary
+  role: coauthor
+  title_fa: فارسی
+  title_en: Persian
+  level_fa: پایه‌ی ۲
+  level_en: Grade 2
+  editions:
+  - year_sh: 1391
+    code: '5'
+    catalogue_url: http://chap.sch.ir/books/34
+    pdf_url: http://chap.sch.ir/sites/default/files/books/91-92/4/000-C5.pdf
+  - year_sh: 1394
+    code: '5'
+    catalogue_url: http://chap.sch.ir/books/3018
+    pdf_url: http://chap.sch.ir/sites/default/files/books/94-95/4/000-C5.pdf
+  - year_sh: 1405
+    code: '203'
+    catalogue_url: http://chap.sch.ir/books/14149
+    pdf_url: http://chap.sch.ir/sites/default/files/lbooks/1405-1406/9/C203.pdf
+- id: primary-4
+  category: primary
+  role: coauthor
+  title_fa: کتاب کار فارسی / نگارش
+  title_en: Persian Workbook / Writing
+  level_fa: پایه‌ی ۲
+  level_en: Grade 2
+  editions:
+  - year_sh: 1391
+    code: 5/1
+    catalogue_url: http://chap.sch.ir/books/37
+    pdf_url: http://chap.sch.ir/sites/default/files/books/91-92/4/000-C5-1.pdf
+  - year_sh: 1394
+    code: 5/1
+    catalogue_url: http://chap.sch.ir/books/3389
+    pdf_url: http://chap.sch.ir/sites/default/files/books/94-95/4/001-008-C5-1.pdf
+  - year_sh: 1405
+    code: '204'
+    catalogue_url: http://chap.sch.ir/books/14150
+    pdf_url: http://chap.sch.ir/sites/default/files/lbooks/1405-1406/9/C204.pdf
+- id: primary-5
+  category: primary
+  role: coauthor
+  title_fa: فارسی بخوانیم
+  title_en: 'Persian: Reading'
+  level_fa: پایه‌ی ۳
+  level_en: Grade 3
+  editions:
+  - year_sh: 1391
+    code: '9'
+    catalogue_url: http://chap.sch.ir/books/40
+    pdf_url: http://chap.sch.ir/sites/default/files/books/91-92/4/000-C9.pdf
+- id: primary-6
+  category: primary
+  role: coauthor
+  title_fa: فارسی بنویسیم
+  title_en: 'Persian: Writing'
+  level_fa: پایه‌ی ۳
+  level_en: Grade 3
+  editions:
+  - year_sh: 1391
+    code: 9/1
+    catalogue_url: http://chap.sch.ir/books/41
+    pdf_url: http://chap.sch.ir/sites/default/files/books/91-92/4/000-C9-1.pdf
+- id: primary-7
+  category: primary
+  role: coauthor
+  title_fa: فارسی بخوانیم
+  title_en: 'Persian: Reading'
+  level_fa: پایه‌ی ۴
+  level_en: Grade 4
+  editions:
+  - year_sh: 1391
+    code: '14'
+    catalogue_url: http://chap.sch.ir/books/48
+    pdf_url: http://chap.sch.ir/sites/default/files/books/91-92/4/000-C14.pdf
+- id: primary-8
+  category: primary
+  role: coauthor
+  title_fa: فارسی بنویسیم
+  title_en: 'Persian: Writing'
+  level_fa: پایه‌ی ۴
+  level_en: Grade 4
+  editions:
+  - year_sh: 1391
+    code: 14/1
+    catalogue_url: http://chap.sch.ir/books/49
+    pdf_url: http://chap.sch.ir/sites/default/files/books/91-92/4/000-C14-1.pdf
+- id: primary-9
+  category: primary
+  role: coauthor
+  title_fa: فارسی بخوانیم
+  title_en: 'Persian: Reading'
+  level_fa: پایه‌ی ۵
+  level_en: Grade 5
+  editions:
+  - year_sh: 1391
+    code: '20'
+    catalogue_url: http://chap.sch.ir/books/56
+    pdf_url: http://chap.sch.ir/sites/default/files/books/91-92/4/000-C20.pdf
+- id: primary-10
+  category: primary
+  role: coauthor
+  title_fa: فارسی بنویسیم
+  title_en: 'Persian: Writing'
+  level_fa: پایه‌ی ۵
+  level_en: Grade 5
+  editions:
+  - year_sh: 1391
+    code: 20/1
+    catalogue_url: http://chap.sch.ir/books/57
+    pdf_url: http://chap.sch.ir/sites/default/files/books/91-92/4/000-C20-1.pdf
+- id: primary-guides-11
+  category: primary-guides
+  role: coauthor
+  title_fa: کتاب معلم فارسی
+  title_en: Persian Teacher’s Guide
+  level_fa: پایه‌ی ۱
+  level_en: Grade 1
+  editions:
+  - year_sh: 1391
+    code: '51'
+    catalogue_url: http://chap.sch.ir/books/748
+    pdf_url: http://chap.sch.ir/sites/default/files/books/91-92/196/000-C51.pdf
+- id: primary-guides-12
+  category: primary-guides
+  role: coauthor
+  title_fa: کتاب معلم فارسی (بخوانیم و بنویسیم)
+  title_en: 'Persian Teacher’s Guide: Reading and Writing'
+  level_fa: پایه‌ی ۴
+  level_en: Grade 4
+  editions:
+  - year_sh: 1386
+    code: '63'
+    catalogue_url: http://chap.sch.ir/books/1062
+    pdf_url: http://chap.sch.ir/sites/default/files/books/86-87/196/000-C63.pdf
+- id: primary-guides-13
+  category: primary-guides
+  role: coauthor
+  title_fa: کتاب معلم فارسی (بخوانیم و بنویسیم)
+  title_en: 'Persian Teacher’s Guide: Reading and Writing'
+  level_fa: پایه‌ی ۵
+  level_en: Grade 5
+  editions:
+  - year_sh: 1386
+    code: '69'
+    catalogue_url: http://chap.sch.ir/books/1065
+    pdf_url: http://chap.sch.ir/sites/default/files/books/86-87/196/000-C69.pdf
+- id: former-secondary-14
+  category: former-secondary
+  role: coauthor
+  title_fa: ادبیات فارسی (۱)
+  title_en: Persian Literature (1)
+  level_fa: سال ۱ دبیرستان ـ نظام پیشین
+  level_en: Year 1
+  editions:
+  - year_sh: 1391
+    code: 201/1
+    catalogue_url: http://chap.sch.ir/books/101
+    pdf_url: http://chap.sch.ir/sites/default/files/books/91-92/104/000-C201-1.pdf
+- id: former-secondary-15
+  category: former-secondary
+  role: coauthor
+  title_fa: زبان فارسی (۱)
+  title_en: Persian Language (1)
+  level_fa: سال ۱ دبیرستان ـ نظام پیشین
+  level_en: Year 1
+  editions:
+  - year_sh: 1391
+    code: 201/2
+    catalogue_url: http://chap.sch.ir/books/103
+    pdf_url: http://chap.sch.ir/sites/default/files/books/91-92/104/000-C201-2.pdf
+- id: former-secondary-16
+  category: former-secondary
+  role: coauthor
+  title_fa: ادبیات فارسی (۲)
+  title_en: Persian Literature (2)
+  level_fa: سال ۲ دبیرستان ـ نظام پیشین
+  level_en: Year 2
+  editions:
+  - year_sh: 1391
+    code: 220/1
+    catalogue_url: http://chap.sch.ir/books/117
+    pdf_url: http://chap.sch.ir/sites/default/files/books/91-92/156/000-C220-1.pdf
+  - year_sh: 1394
+    code: 220/1
+    catalogue_url: http://chap.sch.ir/books/3065
+    pdf_url: http://chap.sch.ir/sites/default/files/books/94-95/156/000-C220-1.pdf
+- id: former-secondary-17
+  category: former-secondary
+  role: coauthor
+  title_fa: زبان فارسی (۲)
+  title_en: Persian Language (2)
+  level_fa: سال ۲ دبیرستان ـ نظام پیشین
+  level_en: Year 2
+  editions:
+  - year_sh: 1391
+    code: 220/2
+    catalogue_url: http://chap.sch.ir/books/118
+    pdf_url: http://chap.sch.ir/sites/default/files/books/91-92/157/000-C220-2.pdf
+  - year_sh: 1394
+    code: 220/2
+    catalogue_url: http://chap.sch.ir/books/3066
+    pdf_url: http://chap.sch.ir/sites/default/files/books/94-95/156/000-C220-2.pdf
+- id: former-secondary-18
+  category: former-secondary
+  role: coauthor
+  title_fa: ادبیات فارسی (۳)
+  title_en: Persian Literature (3)
+  level_fa: سال ۳ دبیرستان ـ نظام پیشین، ریاضی و تجربی
+  level_en: Year 3, mathematics/sciences
+  editions:
+  - year_sh: 1391
+    code: 249/1
+    catalogue_url: http://chap.sch.ir/books/169
+    pdf_url: http://chap.sch.ir/sites/default/files/books/91-92/156/000-C249-1.pdf
+  - year_sh: 1394
+    code: 249/1
+    catalogue_url: http://chap.sch.ir/books/3122
+    pdf_url: http://chap.sch.ir/sites/default/files/books/94-95/26/000%20C249-1.pdf
+- id: former-secondary-19
+  category: former-secondary
+  role: coauthor
+  title_fa: ادبیات فارسی (۳)
+  title_en: Persian Literature (3)
+  level_fa: سال ۳ دبیرستان ـ نظام پیشین، علوم انسانی
+  level_en: Year 3, humanities
+  editions:
+  - year_sh: 1391
+    code: 249/2
+    catalogue_url: http://chap.sch.ir/books/170
+    pdf_url: http://chap.sch.ir/sites/default/files/books/91-92/44/000-C249-2.pdf
+  - year_sh: 1394
+    code: 249/2
+    catalogue_url: http://chap.sch.ir/books/3123
+    pdf_url: http://chap.sch.ir/sites/default/files/books/94-95/44/000-C249-2.pdf
+- id: former-secondary-20
+  category: former-secondary
+  role: coauthor
+  title_fa: زبان فارسی (۳)
+  title_en: Persian Language (3)
+  level_fa: سال ۳ دبیرستان ـ نظام پیشین، ریاضی و تجربی
+  level_en: Year 3, mathematics/sciences
+  editions:
+  - year_sh: 1391
+    code: 249/3
+    catalogue_url: http://chap.sch.ir/books/171
+    pdf_url: http://chap.sch.ir/sites/default/files/books/91-92/38/000-C249-3.pdf
+  - year_sh: 1394
+    code: 249/3
+    catalogue_url: http://chap.sch.ir/books/3124
+    pdf_url: http://chap.sch.ir/sites/default/files/books/94-95/26/000%20C249-3.pdf
+- id: former-secondary-21
+  category: former-secondary
+  role: coauthor
+  title_fa: زبان فارسی (۳)
+  title_en: Persian Language (3)
+  level_fa: سال ۳ دبیرستان ـ نظام پیشین، علوم انسانی
+  level_en: Year 3, humanities
+  editions:
+  - year_sh: 1391
+    code: 249/4
+    catalogue_url: http://chap.sch.ir/books/172
+    pdf_url: http://chap.sch.ir/sites/default/files/books/91-92/44/000-C249-4.pdf
+  - year_sh: 1394
+    code: 249/4
+    catalogue_url: http://chap.sch.ir/books/3125
+    pdf_url: http://chap.sch.ir/sites/default/files/books/94-95/44/000%20C249-4.pdf
+- id: secondary-22
+  category: secondary
+  role: coauthor
+  title_fa: علوم و فنون ادبی (۱)
+  title_en: Literary Studies and Techniques (1)
+  level_fa: پایه‌ی ۱۰
+  level_en: Grade 10
+  editions:
+  - year_sh: 1405
+    code: '110203'
+    catalogue_url: http://chap.sch.ir/books/14270
+    pdf_url: http://chap.sch.ir/sites/default/files/lbooks/1405-1406/43/C110203.pdf
+- id: secondary-23
+  category: secondary
+  role: coauthor
+  title_fa: علوم و فنون ادبی (۲)
+  title_en: Literary Studies and Techniques (2)
+  level_fa: پایه‌ی ۱۱
+  level_en: Grade 11
+  editions:
+  - year_sh: 1405
+    code: '111203'
+    catalogue_url: http://chap.sch.ir/books/14334
+    pdf_url: http://chap.sch.ir/sites/default/files/lbooks/1405-1406/44/C111203.pdf
+- id: secondary-24
+  category: secondary
+  role: coauthor
+  title_fa: نگارش (۳)
+  title_en: Writing (3)
+  level_fa: پایه‌ی ۱۲
+  level_en: Grade 12
+  editions:
+  - year_sh: 1405
+    code: '112202'
+    catalogue_url: http://chap.sch.ir/books/14351
+    pdf_url: http://chap.sch.ir/sites/default/files/lbooks/1405-1406/710/C112202.pdf
+- id: planning-25
+  category: planning
+  role: planning
+  title_fa: فارسی (۱)
+  title_en: Persian (1)
+  level_fa: پایه‌ی ۱۰
+  level_en: Grade 10
+  editions:
+  - year_sh: 1405
+    code: '110201'
+    catalogue_url: http://chap.sch.ir/books/14253
+    pdf_url: http://chap.sch.ir/sites/default/files/lbooks/1405-1406/43/C110201.pdf
+- id: planning-26
+  category: planning
+  role: planning
+  title_fa: فارسی (۲)
+  title_en: Persian (2)
+  level_fa: پایه‌ی ۱۱
+  level_en: Grade 11
+  editions:
+  - year_sh: 1405
+    code: '111201'
+    catalogue_url: http://chap.sch.ir/books/14316
+    pdf_url: http://chap.sch.ir/sites/default/files/lbooks/1405-1406/44/C111201.pdf
+- id: planning-27
+  category: planning
+  role: planning
+  title_fa: فارسی (۳)
+  title_en: Persian (3)
+  level_fa: پایه‌ی ۱۲
+  level_en: Grade 12
+  editions:
+  - year_sh: 1405
+    code: '112201'
+    catalogue_url: http://chap.sch.ir/books/14350
+    pdf_url: http://chap.sch.ir/sites/default/files/lbooks/1405-1406/710/C112201.pdf
+- id: planning-28
+  category: planning
+  role: planning
+  title_fa: نگارش (۱)
+  title_en: Writing (1)
+  level_fa: پایه‌ی ۱۰
+  level_en: Grade 10
+  editions:
+  - year_sh: 1405
+    code: '110202'
+    catalogue_url: http://chap.sch.ir/books/14255
+    pdf_url: http://chap.sch.ir/sites/default/files/lbooks/1405-1406/43/C110202.pdf
+- id: planning-29
+  category: planning
+  role: planning
+  title_fa: نگارش (۲)
+  title_en: Writing (2)
+  level_fa: پایه‌ی ۱۱
+  level_en: Grade 11
+  editions:
+  - year_sh: 1405
+    code: '111202'
+    catalogue_url: http://chap.sch.ir/books/14317
+    pdf_url: http://chap.sch.ir/sites/default/files/lbooks/1405-1406/44/C111202.pdf
+- id: vocational-30
+  category: vocational
+  role: planning
+  title_fa: فارسی و نگارش (۱)
+  title_en: Persian and Writing (1)
+  level_fa: پایه‌ی ۱۰
+  level_en: Grade 10
+  editions:
+  - year_sh: 1405
+    code: '210116'
+    catalogue_url: http://chap.sch.ir/books/14385
+    pdf_url: http://chap.sch.ir/sites/default/files/lbooks/1405-1406/692/C210116.pdf
+- id: vocational-31
+  category: vocational
+  role: planning
+  title_fa: فارسی و نگارش (۳)
+  title_en: Persian and Writing (3)
+  level_fa: پایه‌ی ۱۲
+  level_en: Grade 12
+  editions:
+  - year_sh: 1405
+    code: '212116'
+    catalogue_url: http://chap.sch.ir/books/14561
+    pdf_url: http://chap.sch.ir/sites/default/files/lbooks/1405-1406/694/C212116.pdf
+- id: secondary-guides-32
+  category: secondary-guides
+  role: planning
+  title_fa: راهنمای معلم فارسی (۳)
+  title_en: Persian Teacher’s Guide (3)
+  level_fa: پایه‌ی ۱۲
+  level_en: Grade 12
+  editions:
+  - year_sh: 1397
+    code: '112366'
+    catalogue_url: http://chap.sch.ir/books/6885
+    pdf_url: http://chap.sch.ir/sites/default/files/lbooks/97-98/203/000%20C112366.pdf
+- id: secondary-guides-33
+  category: secondary-guides
+  role: planning
+  title_fa: راهنمای معلم نگارش (۳)
+  title_en: Writing Teacher’s Guide (3)
+  level_fa: پایه‌ی ۱۲
+  level_en: Grade 12
+  editions:
+  - year_sh: 1397
+    code: '112371'
+    catalogue_url: http://chap.sch.ir/books/6886
+    pdf_url: http://chap.sch.ir/sites/default/files/lbooks/97-98/203/00%20C112371.pdf
+- id: secondary-guides-34
+  category: secondary-guides
+  role: planning
+  title_fa: راهنمای معلم علوم و فنون ادبی (۳)
+  title_en: Literary Studies and Techniques Teacher’s Guide (3)
+  level_fa: پایه‌ی ۱۲
+  level_en: Grade 12
+  editions:
+  - year_sh: 1397
+    code: '112374'
+    catalogue_url: http://chap.sch.ir/books/6944
+    pdf_url: http://chap.sch.ir/sites/default/files/lbooks/97-98/203/000%20C112374.pdf
+- id: vocational-35
+  category: vocational
+  role: planning
+  title_fa: فارسی و نگارش (۲)
+  title_en: Persian and Writing (2)
+  level_fa: پایه‌ی ۱۱
+  level_en: Grade 11
+  editions:
+  - year_sh: 1397
+    code: '211116'
+    catalogue_url: http://chap.sch.ir/books/6076
+    pdf_url: http://chap.sch.ir/sites/default/files/lbooks/97-98/693/001-176-%20C211116.pdf

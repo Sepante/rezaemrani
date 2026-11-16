@@ -1,0 +1,20 @@
+{% for category in site.data.textbooks.categories %}
+<section id="{{ category.id }}" class="archive-group">
+  <div class="archive-group-heading compact"><div><p class="archive-eyebrow">{% if category.id contains 'planning' or category.id == 'vocational' or category.id == 'secondary-guides' %}{% if page.lang == 'fa' %}مشارکت در برنامه‌ریزی درسی{% else %}Curriculum-planning council{% endif %}{% else %}{% if page.lang == 'fa' %}تألیف مشترک{% else %}Coauthorship{% endif %}{% endif %}</p><h2>{% if page.lang == 'fa' %}{{ category.title_fa }}{% else %}{{ category.title_en }}{% endif %}</h2></div></div>
+  {% assign records = site.data.textbooks.records | where: 'category', category.id %}
+  <div class="textbook-list">
+  {% for record in records %}
+    <article class="textbook-record">
+      <div><h3>{% if page.lang == 'fa' %}{{ record.title_fa }}{% else %}{{ record.title_en }}{% endif %}</h3><p class="textbook-level">{% if page.lang == 'fa' %}{{ record.level_fa }}{% else %}{{ record.level_en }}{% endif %}</p></div>
+      <div class="textbook-editions"><p class="textbook-role">{% if record.role == 'coauthor' %}{% if page.lang == 'fa' %}غلام‌رضا عمرانی ـ از مؤلفان{% else %}Gholamreza Emrani — coauthor{% endif %}{% else %}{% if page.lang == 'fa' %}غلام‌رضا عمرانی ـ عضو شورای برنامه‌ریزی{% else %}Gholamreza Emrani — curriculum-planning council member{% endif %}{% endif %}</p>
+      {% assign latest = record.editions | sort: 'year_sh' | last %}
+      <a class="textbook-primary-source" href="{{ latest.catalogue_url }}">{% if page.lang == 'fa' %}مشاهده در پایگاه کتاب‌های درسی{% else %}View in the official textbook catalogue{% endif %} ↗</a>
+      <details><summary>{% if page.lang == 'fa' %}چاپ‌های بررسی‌شده و منابع رسمی{% else %}Verified editions and official sources{% endif %}</summary><ul>
+      {% assign editions = record.editions | sort: 'year_sh' | reverse %}
+      {% for edition in editions %}<li><span>{% if page.lang == 'fa' %}چاپ {% include persian_digits.html value=edition.year_sh %} · کد {% include persian_digits.html value=edition.code %}{% else %}{{ edition.year_sh }} SH · Code <bdi>{{ edition.code }}</bdi>{% endif %}</span><span class="textbook-source-links"><a href="{{ edition.catalogue_url }}">{% if page.lang == 'fa' %}مشاهده در پایگاه کتاب‌های درسی{% else %}Official catalogue{% endif %} ↗</a><a href="{{ edition.pdf_url }}">{% if page.lang == 'fa' %}فایل رسمی چاپ{% else %}Official edition PDF{% endif %} ↗</a></span></li>{% endfor %}
+      </ul></details></div>
+    </article>
+  {% endfor %}
+  </div>
+</section>
+{% endfor %}

@@ -250,6 +250,60 @@ content:
       - { name: external_url, label: پیوند منبع, type: string }
       - { name: body, label: یادداشت‌ها, type: rich-text }
 
+  - name: official_textbooks
+    label: Official school textbooks / کتاب‌های درسی رسمی
+    type: file
+    path: _data/textbooks.yml
+    format: yaml
+    fields:
+    - name: verified_on
+      type: string
+      label: Verification date
+    - name: categories
+      type: object
+      list: true
+      fields:
+      - name: id
+        type: string
+      - name: title_fa
+        type: string
+      - name: title_en
+        type: string
+    - name: records
+      type: object
+      list: true
+      fields:
+      - name: id
+        type: string
+      - name: category
+        type: string
+      - name: title_fa
+        type: string
+      - name: title_en
+        type: string
+      - name: level_fa
+        type: string
+      - name: level_en
+        type: string
+      - name: role
+        type: select
+        options:
+          values:
+          - coauthor
+          - planning
+      - name: editions
+        type: object
+        list: true
+        fields:
+        - name: year_sh
+          type: number
+        - name: code
+          type: string
+        - name: catalogue_url
+          type: string
+        - name: pdf_url
+          type: string
+
 settings:
   content:
     merge: true

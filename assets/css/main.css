@@ -743,3 +743,17 @@ a:focus-visible, summary:focus-visible { outline: 2px solid currentColor; outlin
 
 .landing-shell { grid-template-columns: minmax(0, 1fr); }
 .landing-shell > * { min-width: 0; }
+
+/* Official school textbooks: title at the reading edge, editions alongside it. */
+.textbook-intro { max-width: 65ch; line-height: 1.9; margin-block: 0 28px; }
+.textbook-record { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 20px 40px; border-top: 1px solid var(--line); padding-block: 24px; }
+.textbook-record h3 { margin: 0; font-size: 1.2rem; line-height: 1.7; font-weight: 600; }
+.textbook-level, .textbook-role { margin: 6px 0 12px; font-size: .95rem; line-height: 1.8; }
+.textbook-editions summary { cursor: pointer; font-size: 1rem; line-height: 1.8; }
+.textbook-editions ul { padding-inline-start: 1.2em; margin-block: 14px 0; }
+.textbook-editions li { padding-block: 8px; font-size: .95rem; line-height: 1.8; }
+.textbook-source-links { display: flex; flex-wrap: wrap; gap: 6px 18px; margin-top: 6px; }
+.textbook-source-links a { font-size: 1rem; text-underline-offset: .2em; }
+@media (max-width: 700px) { .textbook-record { grid-template-columns: minmax(0, 1fr); gap: 4px; } }
+
+.textbook-primary-source { display: inline-block; margin-bottom: 12px; font-size: 1.05rem; text-underline-offset: .2em; }

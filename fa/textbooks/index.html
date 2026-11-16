@@ -1,0 +1,20 @@
+---
+layout: default
+title: کتاب‌های درسی رسمی
+lang: fa
+direction: rtl
+translation_url: /en/textbooks/
+
+---
+<section class="archive-page section-block">
+  <div class="shell archive-shell">
+    <p class="section-label">آرشیو / کتاب‌های درسی</p>
+    <div class="archive-page-heading"><h1>کتاب‌های درسی رسمی</h1><p>کتاب‌های درسی آموزش‌وپرورش و راهنماهای معلم، با تفکیک تألیف مشترک و مشارکت در برنامه‌ریزی درسی.</p></div>
+    <p class="textbook-intro">این بخش به کتاب‌های درسی رسمی اختصاص دارد و از کتاب‌های آموزشی مستقل جداست. سال‌ها هجری خورشیدی و مربوط به چاپ‌های بررسی‌شده‌اند؛ لزوماً سال نخستین انتشار نیستند. فهرست با دسترسی به چاپ‌های دیگر تکمیل می‌شود.</p>
+    <nav class="archive-overview-links" aria-label="بخش‌های کتاب‌های درسی">
+    {% for category in site.data.textbooks.categories %}<a href="#{{ category.id }}">{{ category.title_fa }}</a>{% endfor %}
+    </nav>
+    {% include textbooks.html %}
+    <p class="archive-back"><a class="text-link" href="{{ '/fa/works/#textbooks' | relative_url }}">بازگشت به آثار ↗</a></p>
+  </div>
+</section>
