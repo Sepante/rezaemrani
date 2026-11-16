@@ -10,7 +10,6 @@ machine_translation: true
   <div class="shell archive-shell">
     <p class="section-label">Archive / School textbooks</p>
     <div class="archive-page-heading"><h1>Official school textbooks</h1><p>Official school textbooks and teacher guides, distinguishing coauthorship from curriculum-planning contributions.</p></div>
-    <p class="textbook-intro">This section covers the official school curriculum, separately from independent educational books. Dates are Solar Hijri (SH) years of the editions examined, not necessarily first publication. Further editions will be added as they become available.</p>
     <nav class="archive-overview-links" aria-label="Textbook sections">
     {% for category in site.data.textbooks.categories %}<a href="#{{ category.id }}">{{ category.title_en }}</a>{% endfor %}
     </nav>
